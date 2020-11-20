@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.List {
+  background-image: url(../images/star.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.title_div_list {
+	font-size: 3rem;
+	margin-bottom: 15px;
+}
+
+.list_div {
+	font-size: 2rem;
+	margin-bottom: 15px;
+}
+
+
+.btn-download{
+  display:inline-block !important;
+  padding:0.35em 1.2em !important;
+  border:0.1em solid #FFFFFF !important;
+  margin:15px 0.3em 0.3em 15px !important;
+  border-radius:0.3em !important;
+  box-sizing: border-box !important;
+  text-decoration:none !important;
+  font-family:'Roboto',sans-serif !important;
+  font-weight:300 !important;
+  color:#FFFFFF !important;
+  text-align:center !important;
+  transition: all 0.2s !important;
+}
+.btn-download:hover{
+  color:#000000 !important;
+  background-color:#FFFFFF !important;
+}

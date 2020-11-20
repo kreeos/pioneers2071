@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.About {
+  background: no-repeat top/100% url(../images/star.png);
+  background-color: #000525;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.about-title-div {
+  margin-top: 15vh;
+  font-size: 3rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7.5vh;
+  text-align: center;
+}
+
+.about-main-div {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.about-portrait {
+  width: 15vh;
+  height: 15vh;
+  border: 1px solid white;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.about-container {
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.about-imagediv {
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.top-bar{
+	background-color: #414141;
+	width: 100%;
+	height: calc(50px + 1vmax);
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-bar-left{
+	height: 100%;
+	line-height:1;
+	padding: 10px;
+}
+
+.top-bar-left-img{
+	max-width: 130px;
+}
+
+.top-bar-right{
+	height: 100%;
+	line-height: 1;
+	padding: 15px;
+}
+
+.top-bar-right-img{
+	max-width: 20px;
+	margin: 5px;
+}
+
+.sidebar {
+  position: absolute;
+  display: none;
+  top: calc(50px + 1vmax);
+  right: -300px;
+  height: 500px;
+  width: 300px;
+  transition: right .3s ease-in-out;
+  background-color: white;
+  padding: 10px 20px 10px 30px;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar-header {
+	color: #5A9CFF;
+	font-weight: 300;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+
+.sidebar-tab {
+	padding: 10px 0px;
+}
+
+.sidebar-tab-name {
+	padding: 5px 0px;
+	font-weight: 300;
+}
+
+.sidebar-tab-just-name {
+    padding: 7px 0px;
+    font-weight: 300;
+}
+
+
+.sidebar-tab-cont {
+  font-family: 'Merriweather', serif;
+	padding: 3px 0px;
+	font-weight: 300;
+}
+
+.sidebar.open {
+    right: 0;
+	display: block;
+}
+
+a:link, a:visited {
+	color: #212529;
+	text-decoration: none;	
+  font-family: 'Merriweather', serif;
+}
+
+.mobile-footer {
+	padding: 15px;
+	background-color: #414141;
+	color: #888888;
+	font-size: 14px;
+  font-family: 'Merriweather', serif;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn-kaist {
+  position: absolute;
+  top: 73%;
+  left: 74%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 16px;
+  width: 8%;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+  outline:none;
+}
+
+.container .btn-nqe {
+  position: absolute;
+  top: 73%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 16px;
+  width: 13%;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;    
+  outline:none;
+}
+
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.m-container {
+  position: relative;
+}
+
+/* Make the image responsive */
+.m-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.m-container .m-btn-kaist {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 16px;
+  width: 35%;
+  height: 10vh;
+  border: none;
+  border-radius: 5px;
+  outline:none;
+}
+
+.m-container .m-btn-nqe {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 16px;
+  width: 50%;
+  height: 10vh;
+  border: none;
+  border-radius: 5px;    
+  outline:none;
+}
+

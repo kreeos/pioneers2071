@@ -1,0 +1,37 @@
+.timeline-event-title {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 1.5rem;
+	line-height: 30px;
+	color: #A7B9CE;
+	height: 10vh;
+	width: 80%;
+}
+
+.timeline-event-subtitle {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 22px;
+	color: #FFFFFF;
+	width: 80%;
+}
+
+.timeline-event-date {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+	font-size: 1rem;
+	line-height: 150%;
+	color: #FFFFFF;
+	width: 100%;
+	margin-bottom: 3vh;
+}
+
+
+.timeline-event-container {
+	width: 100%;
+}

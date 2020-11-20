@@ -1,0 +1,150 @@
+@media (prefers-reduced-motion: no-preference) {
+  .Main-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.Landing {
+  background: no-repeat top/100% url(../images/star.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.title_div {
+  font-size: 3rem;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.welcome_div {
+  font-size: 3.5rem;
+  margin-bottom: 5vh;
+}
+
+.date_div {
+  font-size: 1.5rem;
+  margin-bottom: 5vh;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 5vh;
+}
+
+.modal {
+  font-size: 12px;
+  font-family: 'Merriweather', serif;
+}
+.modal-header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5px;
+}
+.modal-content {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.modal-input {
+  margin-top: 3%;
+  width: 40%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.modal-actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+
+a.btn-join{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  text-decoration:none;
+  /*font-family:'Roboto',sans-serif;*/
+  font-weight:300;
+  text-align:center;
+  transition: all 0.2s;
+  /*font-size: 1.5rem;*/
+  background: #FFFFFF;
+  /* Main Color */
+  border: 1px solid #2A36A2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+  border-radius: 50px;
+  color: #2A36A1;
+}
+a.btn-join:hover{
+  color:#FFFFFF;
+  background-color:#2A36A1;
+}
+
+.btn-submit {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  background-color: #FFFFFF;
+  text-decoration:none;
+  font-weight:300;
+  color:#000000;
+  text-align:center;
+  transition: all 0.2s;
+
+  border: 1px solid #2A36A2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+  border-radius: 50px;
+  color: #2A36A1;
+}
+.btn-submit:hover{
+  border: 1px solid #FFFFFF;
+  color:#FFFFFF;
+  background-color:#2A36A1;
+}
+
+.btn-cancel {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  margin-left:10px;
+  background-color: #FFFFFF;
+  text-decoration:none;
+  font-weight:300;
+  color:#000000;
+  text-align:center;
+  transition: all 0.2s;
+  
+  border: 1px solid #2A36A2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+  border-radius: 50px;
+  color: #2A36A1;
+}
+
+.btn-cancel:hover{
+  border: 1px solid #FFFFFF;
+  color:#FFFFFF;
+  background-color:#2A36A1;
+}
+
+.popup-content {
+  border-radius: 0.3em;
+}
+
+
+

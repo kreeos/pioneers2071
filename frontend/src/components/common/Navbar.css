@@ -1,0 +1,52 @@
+.Navbar-about {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100%;
+}
+
+.Navbar-program {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100%;
+	text-align: left;
+}
+
+.Navbar-single {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100%;
+}
+
+.Navbar-container {
+	width: '100%';
+	margin: 'auto';
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 10vh;
+}
+
+.Navbar-logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left: 10vh;
+	margin-right: auto;
+}
+
+.dropdown {
+	text-color: #000525;
+	margin-top: 10vh;
+	position: absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+

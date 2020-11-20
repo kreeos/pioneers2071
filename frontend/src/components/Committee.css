@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.Committee {
+  background: no-repeat top/100% url(../images/star.png);
+  background-color: #000525;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.committee-title-div {
+  margin-top: 20vh;
+  font-size: 3rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7.5vh;
+  text-align: center;
+}
+
+.committee-main-div {
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.committee-portrait {
+  width: 15vh;
+  height: 15vh;
+  border: 1px solid white;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.committee-container-left {
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.committee-container-right {
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.committee-text {
+
+}

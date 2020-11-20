@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.Login {
+  background-image: url(../images/star.png);
+  background-position: top;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.login-title-div {
+  font-size: 3rem;
+  margin-bottom: 10vh;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-container {
+  width: 5vw;
+}
+
+.input-text {
+
+}
+
+.input-container {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.register-container {
+  margin-top: 10px;
+}
+
+.register {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: calc(10px + 1vmin);
+}
+
+.register-link {
+  margin-top: 10px;
+  font-size: calc(10px + 1vmin);
+  text-decoration: underline white !important;
+}
+
+.register-link:link {
+  color: white;
+}
+
+.register-link:hover {
+  color: blue;
+  text-decoration: underline blue !important;
+}
+
+.btn-login{
+  background: transparent;
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  border-radius:0.3em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+.btn-login:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}

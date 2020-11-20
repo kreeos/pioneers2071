@@ -1,0 +1,58 @@
+@media (prefers-reduced-motion: no-preference) {
+  .Main-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.Register {
+  background: no-repeat top/100% url(../images/star.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+.register-title-div {
+  font-size: 3rem;
+  margin-bottom: 5vh;
+}
+
+.register-container {
+  margin-bottom: 5vh;
+}
+
+.btn-join{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  text-decoration:none;
+  /*font-family:'Roboto',sans-serif;*/
+  font-weight:300;
+  text-align:center;
+  transition: all 0.2s;
+  /*font-size: 1.5rem;*/
+  background: #FFFFFF;
+  /* Main Color */
+  border: 1px solid #2A36A2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+  border-radius: 50px;
+  color: #2A36A1;
+}
+
+.btn-join:hover{
+  color:#FFFFFF;
+  background-color:#2A36A1;
+}
+
+
+
+
