@@ -1,0 +1,129 @@
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+const mongoose = require('mongoose');
+var cors = require('cors');
+const bodyParser = require('body-parser');
+const url = require('url');
+const https = require('https');
+const fs = require('fs');
+
+var indexRouter = require('./routes/index');
+var testRouter = require('./routes/test');
+var usersRouter = require('./routes/users');
+var studentRouter = require('./routes/student');
+var publicationRouter = require('./routes/publication');
+var newsRouter = require('./routes/news');
+var lectureRouter = require('./routes/lecture');
+var alumniRouter = require('./routes/alumni');
+var downloadRouter = require('./routes/download');
+var conferenceRouter = require('./routes/conference');
+var patentRouter = require('./routes/patent');
+var instrumentRouter = require('./routes/instrument');
+var reservationRouter = require('./routes/reservation');
+var researchRouter = require('./routes/research');
+var memberRouter = require('./routes/member');
+
+const API_PORT = 3000;
+var app = express();
+app.use(cors());
+const router = express.Router();
+
+
+const config = {
+  key: fs.readFileSync('/etc/httpd/SSL/star.kaist.ac.kr.key'),
+  cert: fs.readFileSync('/etc/httpd/SSL/star.kaist.ac.kr.crt')
+};
+
+// https.createServer(config, (req, res) => {
+//   res.writeHead(200);
+//   res.end("Hello World!")
+// }).listen(8000);
+https.createServer(config, app).listen(3000);
+
+// app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
+
+
+// this is our MongoDB database
+const dbRoute =
+  "mongodb://nqeRNL:nanomechanics123@localhost:27017/rnl_web";
+
+const options = {
+  useNewUrlParser: true,
+  useFindAndModify: false
+};
+
+// connects our back end code with the database
+mongoose.connect(dbRoute, options);
+let db = mongoose.connection;
+
+
+// console.log(db)
+db.once('open', () => 
+	console.log('connected to the database\n')
+);
+
+// checks if connection with the database is successful
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
+
+// console.log(db.collections)
+
+// view engine setup
+app.use(express.static(path.join(__dirname, 'build')));
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
+
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/api', indexRouter);
+app.use('/api/users', usersRouter);
+app.use('/api/test', testRouter);
+app.use('/api/v1/publication', publicationRouter);
+app.use('/api/v1/alumni', alumniRouter);
+app.use('/api/v1/news', newsRouter);
+app.use('/api/v1/student', studentRouter);
+app.use('/api/v1/lecture', lectureRouter);
+app.use('/api/v1/download', downloadRouter);
+app.use('/api/v1/patent', patentRouter);
+app.use('/api/v1/conference', conferenceRouter);
+app.use('/api/v1/instrument', instrumentRouter);
+app.use('/api/v1/reservation', reservationRouter);
+app.use('/api/v1/research', researchRouter);
+app.use('/api/v1/member', memberRouter);
+
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
+app.use(function (err, req, res, next) {
+  console.log('This is the invalid field ->', err.field)
+  next(err)
+})
+
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error');
+});
+
+
+
+module.exports = app;
+// app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
+

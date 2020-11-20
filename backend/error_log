@@ -1,0 +1,484 @@
+[Sun Aug 18 20:22:18 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/reservtion
+[Sun Aug 18 20:22:23 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/instruments, referer: http://rnl.kaist.ac.kr/?page_id=441
+[Sun Aug 18 20:22:25 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/instruments
+[Sun Aug 18 20:23:17 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:23:52 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:27 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:27 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:28 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:28 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:28 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:28 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:29 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:29 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:29 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 20:32:51 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 21:29:49 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:29:50 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:29:51 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:30:00 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/publication
+[Sun Aug 18 21:33:08 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:38:24 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 21:38:25 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 21:41:34 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/publication
+[Sun Aug 18 21:41:35 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/publication
+[Sun Aug 18 21:41:35 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/publication
+[Sun Aug 18 21:41:36 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/publication
+[Sun Aug 18 21:41:36 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/publication
+[Sun Aug 18 21:41:36 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/publication
+[Sun Aug 18 21:45:03 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 21:49:36 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:50:41 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:50:41 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:51:00 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:51:01 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:51:26 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 21:52:49 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:52:50 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:54:09 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Sun Aug 18 21:54:55 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/research
+[Sun Aug 18 21:56:11 2019] [error] [client 172.25.0.99] File does not exist: /home/react/frontend/build/members
+[Mon Aug 19 09:31:35 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/robots.txt
+[Mon Aug 19 21:36:05 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/robots.txt
+[Tue Aug 20 11:44:01 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:02 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:02 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:02 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:03 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:03 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:03 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:03 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:04 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:04 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 11:44:09 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:44:56 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:45:21 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:45:40 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:45:41 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:45:49 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/publication
+[Tue Aug 20 11:46:00 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/publication
+[Tue Aug 20 11:46:19 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/publication
+[Tue Aug 20 11:46:19 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/publication
+[Tue Aug 20 11:46:19 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/publication
+[Tue Aug 20 11:46:24 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:46:25 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:46:25 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:46:25 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:46:25 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:46:26 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:46:26 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:46:26 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:46:26 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:48:40 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:48:41 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:48:44 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:48:44 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:48:44 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:48:44 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:48:44 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:48:45 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:49:19 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:49:20 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:49:20 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:49:20 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:49:23 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:49:23 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:49:52 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 11:50:30 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:50:30 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:50:31 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:50:55 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:50:55 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/members
+[Tue Aug 20 11:54:33 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/lecture
+[Tue Aug 20 12:02:29 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 12:02:30 2019] [error] [client 110.76.120.116] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 13:44:35 2019] [error] [client 110.76.120.13] File does not exist: /home/react/frontend/build/publication
+[Tue Aug 20 13:56:42 2019] [error] [client 110.76.120.13] File does not exist: /home/react/frontend/build/lecture
+[Tue Aug 20 13:57:00 2019] [error] [client 110.76.120.13] File does not exist: /home/react/frontend/build/publication
+[Tue Aug 20 14:00:09 2019] [error] [client 110.76.120.13] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 14:08:10 2019] [error] [client 110.76.120.13] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 14:08:10 2019] [error] [client 110.76.120.13] File does not exist: /home/react/frontend/build/instruments
+[Tue Aug 20 14:18:56 2019] [error] [client 110.76.120.13] File does not exist: /home/react/frontend/build/static/js/main.34dfca03.chunk.js.map
+[Tue Aug 20 16:49:36 2019] [error] [client 110.76.120.13] File does not exist: /home/react/frontend/build/research
+[Tue Aug 20 17:20:20 2019] [error] [client 66.249.69.30] File does not exist: /home/react/frontend/build/robots.txt
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.173] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.173] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.173] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.178] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.183] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.178] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.183] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.178] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.183] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.178] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.181] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.180] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.181] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.180] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.181] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.181] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.173] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.173] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:26 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:27 2019] [error] [client 125.209.235.172] File does not exist: /home/react/frontend/build/css, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:27 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:27 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.185] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.185] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.185] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.178] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.184] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.184] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.185] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.178] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.184] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.177] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.186] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.175] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.180] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.180] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.186] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.175] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.180] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.175] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.186] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.180] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-includes, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.186] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 125.209.235.175] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 20 21:06:28 2019] [error] [client 192.0.113.113] File does not exist: /home/react/frontend/build/wp-content
+[Tue Aug 20 21:06:28 2019] [error] [client 192.0.114.49] File does not exist: /home/react/frontend/build/wp-content
+[Tue Aug 20 21:06:28 2019] [error] [client 192.0.113.82] File does not exist: /home/react/frontend/build/wp-content
+[Wed Aug 21 01:53:20 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/robots.txt
+[Wed Aug 21 10:30:48 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/robots.txt
+[Thu Aug 22 03:18:03 2019] [error] [client 192.0.102.96] File does not exist: /home/react/frontend/build/wp-content
+[Thu Aug 22 03:48:36 2019] [error] [client 192.0.100.131] File does not exist: /home/react/frontend/build/wp-content
+[Thu Aug 22 16:08:53 2019] [error] [client 220.82.74.213] File does not exist: /home/react/frontend/build/reservation
+[Thu Aug 22 16:12:49 2019] [error] [client 220.82.74.213] File does not exist: /home/react/frontend/build/members, referer: http://59.27.38.15/tm/?a=CR&b=MAC&c=300016255633&d=32&e=8501&f=cm5sLmthaXN0LmFjLmty&g=1566457953476&h=1566457953560&y=0&z=0&x=1&w=2018-04-24&in=8501_00038095&id=20190822
+[Thu Aug 22 16:20:43 2019] [error] [client 172.25.0.35] File does not exist: /home/react/frontend/build/members
+[Thu Aug 22 16:20:44 2019] [error] [client 172.25.0.35] File does not exist: /home/react/frontend/build/members
+[Thu Aug 22 16:33:27 2019] [error] [client 172.25.0.35] File does not exist: /home/react/frontend/build/members
+[Thu Aug 22 16:33:31 2019] [error] [client 172.25.0.35] File does not exist: /home/react/frontend/build/research
+[Thu Aug 22 17:40:06 2019] [error] [client 172.25.0.35] File does not exist: /home/react/frontend/build/news
+[Thu Aug 22 17:40:07 2019] [error] [client 172.25.0.35] File does not exist: /home/react/frontend/build/news
+[Thu Aug 22 19:19:18 2019] [error] [client 66.249.65.145] File does not exist: /home/react/frontend/build/robots.txt
+[Fri Aug 23 00:02:03 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:04 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/css, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:04 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:05 2019] [error] [client 66.249.65.145] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:05 2019] [error] [client 66.249.65.145] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:06 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:06 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:07 2019] [error] [client 66.249.65.145] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:07 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:08 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:08 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:09 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:09 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:09 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:10 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:10 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:11 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:11 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:12 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:12 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:13 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:13 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:14 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:14 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:15 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:15 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:16 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:17 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:17 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:18 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:18 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:19 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:19 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:20 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:20 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:21 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:21 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:22 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:22 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:23 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:23 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:24 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:24 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:25 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:25 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:26 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:27 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:27 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:28 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:29 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:29 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:30 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:30 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:31 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:31 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:32 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:32 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:33 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:33 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:34 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:35 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:35 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:36 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:36 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:37 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:37 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:38 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:38 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:39 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:39 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:40 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:41 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Fri Aug 23 00:02:41 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-includes, referer: http://rnl.kaist.ac.kr/?page_id=648
+[Sat Aug 24 08:46:38 2019] [error] [client 139.18.2.214] File does not exist: /home/react/frontend/build/robots.txt
+[Sat Aug 24 20:50:59 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/robots.txt
+[Sun Aug 25 12:18:53 2019] [error] [client 66.249.65.145] File does not exist: /home/react/frontend/build/robots.txt
+[Sun Aug 25 13:56:01 2019] [error] [client 66.249.65.145] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:02 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/css, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:03 2019] [error] [client 66.249.65.145] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:04 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:04 2019] [error] [client 66.249.65.145] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:05 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:06 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:06 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:07 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:08 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:09 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:10 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:11 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:12 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:13 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:14 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:15 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Sun Aug 25 13:56:15 2019] [error] [client 66.249.65.141] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=470&mod=editor&parent_uid=1
+[Mon Aug 26 16:29:55 2019] [error] [client 66.249.79.246] File does not exist: /home/react/frontend/build/robots.txt
+[Mon Aug 26 16:29:55 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:29:55 2019] [error] [client 66.249.79.246] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:29:56 2019] [error] [client 66.249.79.248] File does not exist: /home/react/frontend/build/css, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:29:57 2019] [error] [client 66.249.79.246] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:29:57 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:29:58 2019] [error] [client 66.249.79.248] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:29:58 2019] [error] [client 66.249.79.246] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:29:59 2019] [error] [client 66.249.79.246] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:00 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:01 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:01 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:02 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:02 2019] [error] [client 66.249.79.246] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:03 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:03 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:04 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:04 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:05 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:06 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:06 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:07 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-includes, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:07 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:08 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:08 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-includes, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:09 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:09 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-includes, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:10 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:10 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-includes, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:11 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:11 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:12 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:12 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:13 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Mon Aug 26 16:30:14 2019] [error] [client 66.249.79.244] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/?page_id=276
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/css, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.186] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.186] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:34 2019] [error] [client 125.209.235.182] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:35 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:35 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:35 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:35 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:35 2019] [error] [client 125.209.235.176] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:35 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:35 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:35 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:36 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:36 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.169] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.179] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.180] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:37 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 192.0.113.82] File does not exist: /home/react/frontend/build/wp-content
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.171] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.170] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 192.0.113.113] File does not exist: /home/react/frontend/build/wp-content
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-includes, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 125.209.235.174] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:38 2019] [error] [client 192.0.114.49] File does not exist: /home/react/frontend/build/wp-content
+[Tue Aug 27 22:00:42 2019] [error] [client 125.209.235.186] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:42 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:42 2019] [error] [client 125.209.235.180] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:42 2019] [error] [client 125.209.235.167] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Tue Aug 27 22:00:42 2019] [error] [client 125.209.235.168] File does not exist: /home/react/frontend/build/wp-content, referer: http://rnl.kaist.ac.kr/
+[Wed Aug 28 11:48:44 2019] [error] [client 66.249.65.143] File does not exist: /home/react/frontend/build/robots.txt
+[Wed Aug 28 19:03:06 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Wed Aug 28 19:03:33 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Wed Aug 28 19:03:34 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Wed Aug 28 19:03:34 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Wed Aug 28 19:03:34 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Wed Aug 28 19:03:35 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Wed Aug 28 19:03:35 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Wed Aug 28 19:08:11 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Wed Aug 28 19:08:13 2019] [error] [client 172.25.0.28] File does not exist: /home/react/frontend/build/research
+[Tue Sep 03 13:31:21 2019] [error] [client 143.248.226.220] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Tue Sep 03 13:31:21 2019] [error] [client 143.248.226.220] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Tue Sep 03 13:31:21 2019] [error] [client 143.248.226.220] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Tue Sep 03 13:31:21 2019] [error] [client 143.248.226.220] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Tue Sep 03 13:31:21 2019] [error] [client 143.248.226.220] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Tue Sep 03 13:31:21 2019] [error] [client 143.248.226.220] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Tue Sep 03 13:31:21 2019] [error] [client 143.248.226.220] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Tue Sep 03 13:31:21 2019] [error] [client 143.248.226.220] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Sat Sep 07 17:43:47 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sat Sep 07 17:43:49 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sat Sep 07 17:43:52 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sat Sep 07 17:44:02 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Sat Sep 07 17:44:02 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Sat Sep 07 17:44:02 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Sat Sep 07 17:44:02 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Sat Sep 07 17:44:02 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Sat Sep 07 17:44:02 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Sat Sep 07 17:44:02 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/
+[Sat Sep 07 17:44:03 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/instruments/
+[Sat Sep 07 17:44:04 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/instruments/
+[Sat Sep 07 17:44:16 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/instruments/
+[Sat Sep 07 17:44:17 2019] [error] [client 172.25.0.39] File does not exist: /home/react/frontend/build/index.html, referer: http://rnl.kaist.ac.kr/instruments/
+[Sun Sep 08 15:54:10 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sun Sep 08 21:22:15 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sun Sep 08 21:22:18 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sun Sep 08 21:22:24 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sun Sep 08 21:22:28 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sun Sep 08 21:22:37 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Thu Sep 19 15:59:19 2019] [error] [client 143.248.241.136] File does not exist: /home/react/frontend/build/index.html
+[Sun Sep 29 18:24:19 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Sun Sep 29 18:24:21 2019] [error] [client 211.231.75.162] File does not exist: /home/react/frontend/build/index.html
+[Wed Jan 08 22:11:58 2020] [error] [client 172.25.0.112] File does not exist: /home/react/frontend/build/index.html
+[Wed Jan 08 22:11:59 2020] [error] [client 172.25.0.112] File does not exist: /home/react/frontend/build/index.html
+[Wed Jan 08 22:12:00 2020] [error] [client 172.25.0.112] File does not exist: /home/react/frontend/build/index.html
+[Wed Jan 08 22:12:05 2020] [error] [client 172.25.0.112] File does not exist: /home/react/frontend/build/index.html
+[Wed Jan 08 22:12:05 2020] [error] [client 172.25.0.112] File does not exist: /home/react/frontend/build/index.html
+[Fri Jan 24 17:09:10 2020] [error] [client 172.25.0.119] File does not exist: /home/react/frontend/build/index.html
+[Fri Jan 24 17:09:11 2020] [error] [client 172.25.0.119] File does not exist: /home/react/frontend/build/index.html
+[Fri Jan 24 17:09:21 2020] [error] [client 124.56.125.175] File does not exist: /home/react/frontend/build/index.html
+[Thu Feb 27 17:56:49 2020] [error] [client 210.107.129.175] File does not exist: /home/react/frontend/build/static/media/RTM.54d26c59.jpg/
+[Fri Mar 06 18:54:09 2020] [error] [client 172.25.0.27] File does not exist: /home/react/frontend/build/index.html
+[Fri Mar 06 18:54:11 2020] [error] [client 172.25.0.27] File does not exist: /home/react/frontend/build/index.html
