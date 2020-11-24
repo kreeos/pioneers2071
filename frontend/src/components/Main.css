@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mulish');
 
 .Main {
   background: no-repeat top/100% url(../images/star.png);
@@ -32,37 +33,6 @@
   width: 100%;
 }
 
-.modal {
-  font-size: 12px;
-  font-family: 'Merriweather', serif;
-}
-.modal-header {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  font-size: 2rem;
-  text-align: center;
-  padding: 5px;
-}
-.modal-content {
-  width: 100%;
-  padding: 10px 5px;
-  font-size: 1.2rem;
-  text-align: center;
-}
-.modal-input {
-  margin-top: 3%;
-  width: 40%;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.modal-actions {
-  width: 100%;
-  padding: 10px 5px;
-  margin: auto;
-  text-align: center;
-}
-
 a.main-btn-join {
   display:inline-block;
   padding:0.35em 1.2em;
@@ -76,6 +46,7 @@ a.main-btn-join {
   filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
   border-radius: 50px;
   color: #FFFFFF;
+  text-decoration: none;
   background: transparent;
 }
 
@@ -88,14 +59,18 @@ a.main-btn-join:hover{
   margin-top: 100px;
   text-align: left;
   margin-bottom: 25vh;
+  font-family: 'Merriweather', serif;
 }
 
 .timeline-title {
   font-size: 1.5rem;
   margin-bottom: 10vh;
+  margin-left: 15%;
+  font-family: 'Merriweather', serif;
 }
 
 .timeline-line {
-  width: 75vw;
+  width: 100vw;
+  font-family: 'Merriweather', serif;
 }
 

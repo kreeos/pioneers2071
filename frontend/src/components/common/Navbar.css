@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 .Navbar-about {
 	display: flex;
 	flex-direction: column;
@@ -28,6 +30,9 @@
 	flex-direction: row;
 	justify-content: flex-end;
 	margin-right: 10vh;
+	font-family: 'Merriweather', serif;
+	line-height: 0 !important;
+	letter-spacing: 0 !important;
 }
 
 .Navbar-logo {

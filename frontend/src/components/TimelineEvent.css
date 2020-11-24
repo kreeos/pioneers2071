@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 .timeline-event-title {
-	font-family: Mulish;
+	font-family: Merriweather;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 1.5rem;
@@ -10,7 +12,7 @@
 }
 
 .timeline-event-subtitle {
-	font-family: Inter;
+	font-family: Merriweather;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1rem;
@@ -20,16 +22,31 @@
 }
 
 .timeline-event-date {
-	font-family: Mulish;
+	font-family: Merriweather;
 	font-style: normal;
 	font-weight: 600;
 	text-align: left;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 150%;
 	color: #FFFFFF;
 	width: 100%;
 	margin-bottom: 3vh;
 }
+
+
+.timeline-event-date-init {
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 600;
+	text-align: left;
+	font-size: 1.2rem;
+	line-height: 150%;
+	color: #FFFFFF;
+	width: 100%;
+	margin-bottom: 3vh;
+	visibility: hidden;
+}
+
 
 
 .timeline-event-container {

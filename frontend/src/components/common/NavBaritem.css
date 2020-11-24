@@ -1,13 +1,10 @@
 .hre {
 	color: white;
-	padding-top: 30px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
 	font-weight: bold;
 	font-size: calc(5px + 0.8vmax); /* 1.3 */
-	font-family: 'Merriweather', serif;
+	font-family: 'Mulish', serif;
 }
+
 .hre:hover + .menu_div{
     /*color: #000000;
 	text-underline-position: auto;*/

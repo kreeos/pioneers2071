@@ -20,7 +20,7 @@ class Landing extends Component {
 
   sendRequest = async (newSubscriber) => {
       try {
-          const resp = await axios.post('http://aria.sparcs.org:55554/api/landing/post', newSubscriber);
+          const resp = await axios.post('http://192.249.18.101:8000/api/landing/post', newSubscriber);
           // console.log(resp.data);
           alert("Successfully Subscribed with an address : " + resp.data);
           window.location.reload(false);
@@ -41,7 +41,7 @@ class Landing extends Component {
       const newSubscriber = {
         email: this.state.value
       };
-      console.log(newSubscriber)
+      // console.log(newSubscriber)
       this.sendRequest(newSubscriber);
     }
 
