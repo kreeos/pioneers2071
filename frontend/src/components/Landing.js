@@ -2,7 +2,7 @@ import './Landing.css';
 import React, { Component } from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import Logo from '../images/icon_compass.png';
+import Logo from '../images/logo-main.png';
 import axios from 'axios'
 
 class Landing extends Component {
@@ -53,19 +53,25 @@ class Landing extends Component {
       <div className="Landing">
         <img src={Logo} className="logo"/ >
         <div className="title_div">
+          <div className="title">
+            <a>
+              Pioneers 2071: <br/>
+            </a>
+          </div>
+          <div className="subtitle">
+            <a>
+              Questioning the Next 50 Years          
+            </a>
+          </div>
+        </div>
+        <div className="date_div">
           <a>
-            Pioneers 2071: <br/>
-            Questioning the Next 50 Years          
+            Feb 9th, 2021 - Feb 14th, 2021 (KST)           
           </a>
         </div>
         <div className="welcome_div">
           <a>
             Coming Soon
-          </a>
-        </div>
-        <div className="date_div">
-          <a>
-            Feb, 10th, 2021 - Feb, 14th, 2021          
           </a>
         </div>
         <div className="Popup-container">

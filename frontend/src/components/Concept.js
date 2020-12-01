@@ -2,7 +2,7 @@ import './Concept.css';
 import React, { Component } from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import Planet from '../images/icon_planet.png';
+import Planet from '../images/icon-planet.png';
 
 class Concept extends Component {
 constructor(props) {
@@ -15,7 +15,7 @@ constructor(props) {
       <div className="Concept">
         <div className="concept-title-div">
           <a>
-            Concepts
+            Scenario
           </a>
         </div>
         <div className="concept-main-div">

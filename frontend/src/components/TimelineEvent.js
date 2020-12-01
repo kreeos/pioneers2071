@@ -48,8 +48,8 @@ const TimelineEvent = ({
   let outerWidth = window.innerWidth;
   width = ((outerWidth * 0.75) / numEvents) + 0
   height = 70
-  let color_circle = flag_prev ? '#A7B9CE' : '#C4C4C4'
-  let color_bar = flag_cur ? '#A7B9CE' : '#C4C4C4'
+  let color_circle = flag_prev ? '#E4A86F' : '#C4C4C4'
+  let color_bar = flag_cur ? '#E4A86F' : '#C4C4C4'
   return (
     <div>
   {
@@ -63,7 +63,7 @@ const TimelineEvent = ({
         <Fragment>
           <svg width="100%" height={height}>
             <g>
-              <rect width={width+15} height="20" fill="#A7B9CE" x="10" y={(height/2)-20} />
+              <rect width={width+15} height="20" fill="#E4A86F" x="10" y={(height/2)-20} />
             </g>
           </svg>
           <Grid className="timeline-text-container">
@@ -132,7 +132,7 @@ const TimelineEvent = ({
               <circle
                 cx={20}
                 cy={25}
-                r={5}
+                r={7.5}
                 fill='#000525'
                 strokeWidth={0.15}
               />

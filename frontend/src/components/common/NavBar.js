@@ -50,9 +50,9 @@ class NavBar extends Component {
 	render() {
 		// console.log(window.scrollY);
 		return (
-			<div style = {{ height:100, width: '100%', position: 'fixed', zIndex: '9999',
+			<div style = {{ height:100, width:'100%', position: 'fixed', zIndex: '9999',
 				background: this.props.top ? '' : 'rgba(0, 0, 0, 0.25)' ,
-				boxShadow: this.props.top ? '' : '0 1px 2px rgba(0, 0, 0, 0.12)',
+				boxShadow: this.props.top ? '' : '0 1px 2px rgba(0, 0, 0, 0.12)', 
 			}}>
 				<div className="Navbar-container">
 					<div className="Navbar-logo">

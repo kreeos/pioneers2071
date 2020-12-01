@@ -24,22 +24,20 @@
 }
 
 .Navbar-container {
-	width: '100%';
-	margin: 'auto';
+	padding-right: 10vw;
+	padding-left:10vw;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
-	margin-right: 10vh;
+	justify-content: flex-start;
 	font-family: 'Merriweather', serif;
 	line-height: 0 !important;
-	letter-spacing: 0 !important;
+	letter-spacing: 0 !important
 }
 
 .Navbar-logo {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	margin-left: 10vh;
 	margin-right: auto;
 }
 

@@ -57,7 +57,9 @@ class About extends Component {
                 <br/>
                 <br/>
                 1. Pandemic 
+                <br/>
                 2. Education/Economy 
+                <br/>
                 3. Environment 
                 <br/>
                 <br/>
@@ -73,6 +75,32 @@ class About extends Component {
               <a>
                 Conference<br/>
                 Process
+              </a>
+            </div>
+            <div className="about-text">
+              <a>
+                Before the conference begins, each team will receive a scenario and 
+                default data on the planet they live on. 
+                They do a social and scientific analysis of 
+                what kind of society is formed on this planet, 
+                and how to solve the biggest challenges that mankind is facing today. 
+                They will work together to discuss and discuss what ideologies, policies, 
+                technologies, and ideas we should lead this society to.
+                <br/><br/>
+                The Pioneers on this planet can only be one team. 
+                To that end, we need to come up with good ideas, 
+                policies, and Innovative Ideas. 
+                There will be discussions with other candidates for Pioneers, 
+                and elections for Pioneers will take place. 
+                <br/><br/>
+                Be a pioneer to save the people living on this planet!
+                <br/>
+              </a>
+            </div>
+          </div><div className="about-container">
+            <div className="about-category">
+              <a>
+                Award
               </a>
             </div>
             <div className="about-text">

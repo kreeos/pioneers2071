@@ -2,7 +2,8 @@ import './Main.css';
 import React, { Component } from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import Logo from '../images/logo_temp.png';
+import Logo from '../images/logo-main.png';
+import Planet from '../images/icon-planet.png'
 import axios from 'axios'
 import Timeline from './Timeline'
 import TimelineEvent from './TimelineEvent'
@@ -38,19 +39,34 @@ class Main extends Component {
     return (
       <div className="Main">
         <div className="main-container">
-          <div className="slogan-div">
-            <a>
-              Pioneers 2071: <br/>
-              Questioning the Next 50 Years     
-            </a>
+          <div className="main-content">
+            <div className="main-text-div">
+              <div className="slogan-div">
+                <div className="title-div">
+                  Pioneers 2071:
+                </div>
+                <div className="subtitle-div">
+                  Questioning the Next 50 Years     
+                </div>
+              </div>
+              <div className="main-welcome-div">
+                <a>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br/>
+                </a>
+                <br/>
+                <p>
+                  Feb 9th, 2021 - Feb 14th, 2021 (KST) 
+                </p>
+              </div>
+            </div>
+            <div className="main-logo-div">
+              <img src={Planet} className="logo"/ >
+            </div>
           </div>
-          <div className="main-welcome-div">
-            <a>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br/>
-            </a>
+          <div className="button-div">
+            <a href="/register/event" className="main-btn-join"> Join Now </a>
           </div>
-          <a href="/register/event" className="main-btn-join"> Join Now </a>
         </div>
         <div className="timeline-container">
           <div className="timeline-title">
@@ -69,7 +85,7 @@ class Main extends Component {
                 title='Registration Open'
                 subtitle='Registration for Pioneers 2071 opens'
                 // subtitle='Friday, December 18th 2020'
-                date='Dec. 18th, 2020'
+                date='Dec. 18th'
                 flag_cur={this.state.flag_one}
                 flag_prev={true}              
               />
@@ -79,7 +95,7 @@ class Main extends Component {
                 title='Registration Close'
                 subtitle='Registration for Pioneers 2071 closes'
                 // subtitle='Friday, January 1st 2021'
-                date='Jan. 1st, 2021'
+                date='Jan. 1st'
                 flag_cur={this.state.flag_two}
                 flag_prev={this.state.flag_one}
               />
@@ -89,7 +105,7 @@ class Main extends Component {
                 title="Information Distribution"
                 subtitle='Notifications, Documents, and Resources sent to Participants'
                 // subtitle='Monday, January 4th 2021'
-                date='Jan. 4th, 2021'
+                date='Jan. 4th'
                 flag_cur={this.state.flag_three}
                 flag_prev={this.state.flag_two}
               />
@@ -99,7 +115,7 @@ class Main extends Component {
                 title="Proposal Submission"
                 subtitle='Proposal submitted by participants'
                 // subtitle='Monday, January 18th 2021'
-                date='Jan. 18th, 2021'
+                date='Jan. 18th'
                 flag_cur={this.state.flag_four}
                 flag_prev={this.state.flag_three}
               />
@@ -109,7 +125,7 @@ class Main extends Component {
                 title="Announcement"
                 subtitle='Result of Round 1 Announced'
                 // subtitle='Friday, January 22th 2021'
-                date='Jan. 22nd, 2021'
+                date='Jan. 22nd'
                 flag_cur={false||this.state.flag_four}
                 flag_prev={this.state.flag_four}
               />
