@@ -56,7 +56,7 @@ class Timeline extends Component {
       children,
       classes,
       variant = 'default',
-      height = 300,
+      height = 400,
       minEvents = 0,
       maxEvents = 0,
       placeholder,

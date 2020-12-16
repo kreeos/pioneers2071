@@ -33,17 +33,6 @@ class Landing extends Component {
   };
 
   handleSubmit(event) {
-    let cond = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-    let validity = cond.test(this.state.value);
-    if (!(validity)) 
-      alert('Your email address is in a wrong format. Please check again');
-    else {
-      const newSubscriber = {
-        email: this.state.value
-      };
-      // console.log(newSubscriber)
-      this.sendRequest(newSubscriber);
-    }
 
     event.preventDefault();
   }
@@ -66,7 +55,7 @@ class Landing extends Component {
         </div>
         <div className="date_div">
           <a>
-            Feb 9th, 2021 - Feb 14th, 2021 (KST)           
+            Feb 9th, 2021 - Feb 14th, 2021 (GMT+9)           
           </a>
         </div>
         <div className="welcome_div">
@@ -76,7 +65,7 @@ class Landing extends Component {
         </div>
         <div className="Popup-container">
           <Popup
-            trigger={<a className="btn-join">Stay Tuned</a>}
+            trigger={<button className="btn-join">Stay Tuned</button>}
             modal
             nested
           >

@@ -12,10 +12,12 @@ class NavBar extends Component {
 	constructor(props) {
 		super(props);
 		this.handleAboutHover = this.handleAboutHover.bind(this);
-		this.handleProgramHover = this.handleProgramHover.bind(this);
+		this.handleConferenceHover = this.handleConferenceHover.bind(this);
+		this.handleParticipateHover = this.handleParticipateHover.bind(this);
 		this.state = {
 			AboutHovering: false,
-			ProgramHovering: false,
+			ConferenceHovering: false,
+			ParticipateHovering: false,
 		};
 	}
 
@@ -27,12 +29,19 @@ class NavBar extends Component {
         }
     }
 
-	handleAboutHover() {
-		this.setState(this.toggleAboutState);
+	handleAboutHover(props) {
+		if (props != true)
+			this.setState(this.toggleAboutState);
 	}
 
-	handleProgramHover() {
-		this.setState(this.toggleProgramState);
+	handleConferenceHover(props) {
+		if (props != true)
+			this.setState(this.toggleConferenceState);
+	}
+
+	handleParticipateHover(props) {
+		if (props != true)
+			this.setState(this.toggleParticipateState);
 	}
 
 	toggleAboutState(state) {
@@ -41,17 +50,22 @@ class NavBar extends Component {
 		};
 	}
 
-	toggleProgramState(state) {
+	toggleConferenceState(state) {
 		return {
-			ProgramHovering: !state.ProgramHovering,
+			ConferenceHovering: !state.ConferenceHovering,
+		};
+	}
+
+	toggleParticipateState(state) {
+		return {
+			ParticipateHovering: !state.ParticipateHovering,
 		};
 	}
 
 	render() {
-		// console.log(window.scrollY);
 		return (
-			<div style = {{ height:100, width:'100%', position: 'fixed', zIndex: '9999',
-				background: this.props.top ? '' : 'rgba(0, 0, 0, 0.25)' ,
+			<div style = {{ height:100, width:'100%', position: 'fixed', zIndex: '95',
+				background: this.props.top ? '' : 'rgba(0, 0, 0, 0.75)' ,
 				boxShadow: this.props.top ? '' : '0 1px 2px rgba(0, 0, 0, 0.12)', 
 			}}>
 				<div className="Navbar-container">
@@ -61,9 +75,6 @@ class NavBar extends Component {
 				{/*
 					<NavBaritem login="true" link="/login/" top={this.props.top}>Login</NavBaritem>
 				*/}	
-					<div className="Navbar-single">
-						<NavBaritem link="/" top={this.props.top}>Home</NavBaritem>
-					</div>
 					<div 
 						className="Navbar-about"
 						onMouseEnter={this.handleAboutHover}
@@ -72,25 +83,41 @@ class NavBar extends Component {
 						<NavBaritem link="/about" top={this.props.top}>About</NavBaritem>
 						{
 							this.state.AboutHovering ? 
-							<div className="dropdown">
-								<NavBaritem hover={true} link="/about" top={this.props.top}>Conference</NavBaritem>
-								<NavBaritem hover={true} link="/committee" top={this.props.top}>Committee</NavBaritem>
+							<div className="dropdown" onMouseEnter={this.handleAboutHover(true)}>
+								<NavBaritem hover={true} link="/about" top={this.props.top}>Pioneer 2071</NavBaritem>
+								<NavBaritem hover={true} link="/contact" top={this.props.top}>Contact</NavBaritem>
 							</div>
 							:
 							null
 						}
 					</div>
 					<div 
-						className="Navbar-program"
-						onMouseEnter={this.handleProgramHover}
-						onMouseLeave={this.handleProgramHover}
+						className="Navbar-conference"
+						onMouseEnter={this.handleConferenceHover}
+						onMouseLeave={this.handleConferenceHover}
 					>	
-						<NavBaritem link="/concept" top={this.props.top}>Program</NavBaritem>
+						<NavBaritem link="/scenario" top={this.props.top}>Conference</NavBaritem>
 						{
-							this.state.ProgramHovering ? 
-							<div className="dropdown">
-								<NavBaritem hover={true} link="/concept" top={this.props.top}>Concept</NavBaritem>
-								<NavBaritem hover={true} link="/concept" top={this.props.top}>Participation</NavBaritem>
+							this.state.ConferenceHovering ? 
+							<div className="dropdown" onMouseEnter={this.handleConferenceHover(true)}>
+								<NavBaritem hover={true} link="/scenario" top={this.props.top}>Scenario</NavBaritem>
+								<NavBaritem hover={true} link="/schedule" top={this.props.top}>Schedule</NavBaritem>
+							</div>
+							:
+							null
+						}
+					</div>
+					<div 
+						className="Navbar-participate"
+						onMouseEnter={this.handleParticipateHover}
+						onMouseLeave={this.handleParticipateHover}
+					>	
+						<NavBaritem link="/guide/participants" top={this.props.top}>Participation</NavBaritem>
+						{
+							this.state.ParticipateHovering ? 
+							<div className="dropdown" onMouseEnter={this.handleParticipateHover(true)}>
+								<NavBaritem hover={true} link="/guide/participants" top={this.props.top}>Guide for Participants</NavBaritem>
+								<NavBaritem hover={true} link="/guide/voters" top={this.props.top}>Guide for Voters</NavBaritem>
 							</div>
 							:
 							null
@@ -98,9 +125,6 @@ class NavBar extends Component {
 					</div>
 					<div className="Navbar-single">
 						<NavBaritem link="/register" top={this.props.top}>Registration</NavBaritem>
-					</div>
-					<div className="Navbar-single">
-						<NavBaritem link="/contact" top={this.props.top}>Contact</NavBaritem>
 					</div>
 					<div style={{clear: 'both'}}></div>
 				</div>

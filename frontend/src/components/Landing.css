@@ -76,7 +76,7 @@
   text-align: center;
 }
 
-a.btn-join{
+.btn-join{
   display:inline-block;
   text-decoration:none;
   width: 250px;
@@ -94,7 +94,7 @@ a.btn-join{
   border-radius: 50px;
   color: #FFFFFF;
 }
-a.btn-join:hover{
+.btn-join:hover{
   color:#E4A86F;
   background-color:#FFFFFF;
 }
@@ -106,6 +106,7 @@ a.btn-join:hover{
   text-decoration:none;
   font-weight:300;
   color:#000000;
+  font-size: 1.1rem;
   text-align:center;
   transition: all 0.2s;
 
@@ -124,6 +125,7 @@ a.btn-join:hover{
 .btn-cancel {
   display:inline-block;
   padding:0.35em 1.2em;
+  font-size: 1.1rem;
   margin-left:10px;
   background-color: #FFFFFF;
   text-decoration:none;

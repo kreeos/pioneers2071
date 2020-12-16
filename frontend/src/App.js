@@ -7,31 +7,37 @@ import List from './components/List'
 import About from './components/About';
 import Login from './components/Login';
 import Contact from './components/Contact';
-import Concept from './components/Concept';
-import Committee from './components/Committee';
+import Landing from './components/Landing';
 import Register from './components/Register'
+import Schedule from './components/Schedule'
+import Secnario from './components/Scenario';
+import Complete from './components/Complete';
+import Committee from './components/Committee';
 import RegisterEvent from './components/RegisterEvent'
+import GuideParticipants from './components/GuideParticipants'
+import GuideVoters from './components/GuideVoters'
 
 class App extends Component {
   constructor(props){
-  super(props);
-  this.state = {
-    top: true,
-  };
+    super(props);
+    this.state = {
+      top: true,
+      landing: false
+    };
   }
   // 일정 스크롤 이하로 내리면 네비게이션바  화면 변화
   componentWillMount() {
-  document.addEventListener( 'scroll', () => {
-    if(window.scrollY < 30) {
-      this.setState( {
-        top:true,
-      });
-    } else {
-      this.setState( {
-        top:false,
-      });
-    }
-  });
+    document.addEventListener( 'scroll', () => {
+      if(window.scrollY < 30) {
+        this.setState( {
+          top:true,
+        });
+      } else {
+        this.setState( {
+          top:false,
+        });
+      }
+    });
   }
 
   render() {
@@ -39,21 +45,29 @@ class App extends Component {
       <div style={{ overflowX: 'hidden' }}>      
         <BrowserRouter>
         {
+          this.state.landing ?
+          null
+          :
           <HeaderContainer/>
         }
-        <Switch>
-          <Route exact path="/" component={Main}/>
-          <Route exact path="/list" component={List}/>
-          <Route exact path="/main" component={Main}/>
-          <Route exact path="/login" component={Login}/>
-          <Route exact path="/about" component={About}/>
-          <Route exact path="/concept" component={Concept}/>
-          <Route exact path="/contact" component={Contact}/>
-          <Route exact path="/committee" component={Committee}/>
-          <Route exact path="/register" component={Register}/>
-          <Route exact path="/register/event" component={RegisterEvent}/>
-          <Redirect from="/" to="/" /> 
-        </Switch>
+          <Switch>
+            <Route exact path="/" component={this.state.landing ? Landing : Main}/>
+            <Route exact path="/list" component={List}/>
+            <Route exact path="/main" component={this.state.landing ? Landing : Main}/>
+            <Route exact path="/login" component={Login}/>
+            <Route exact path="/about" component={About}/>
+            <Route exact path="/scenario" component={Secnario}/>
+            <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/committee" component={Committee}/>
+            <Route exact path="/register" component={Register}/>
+            <Route exact path="/complete" component={Complete}/>
+            <Route exact path="/schedule" component={Schedule}/>
+            <Route exact path="/register/event" component={RegisterEvent}/>
+            <Route exact path="/guide" component={GuideParticipants}/>
+            <Route exact path="/guide/participants" component={GuideParticipants}/>
+            <Route exact path="/guide/voters" component={GuideVoters}/>
+            <Redirect from="/" to="/" /> 
+          </Switch>
         </BrowserRouter>
       </div>
     );

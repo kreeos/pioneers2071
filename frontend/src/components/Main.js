@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import Logo from '../images/logo-main.png';
-import Planet from '../images/icon-planet.png'
+import Planet from '../images/Main.png'
 import axios from 'axios'
 import Timeline from './Timeline'
 import TimelineEvent from './TimelineEvent'
+import {Link} from 'react-router-dom'
 
 class Main extends Component {
   constructor(props) {
@@ -20,7 +21,6 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    console.log(Date.now())
     let now = Date.now()
     let flag_one = now > 1609491600000
     let flag_two = now > 1609750800000
@@ -35,7 +35,6 @@ class Main extends Component {
   }
 
   render() {
-    console.log(this.state)
     return (
       <div className="Main">
         <div className="main-container">
@@ -51,26 +50,33 @@ class Main extends Component {
               </div>
               <div className="main-welcome-div">
                 <a>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br/>
+                  We provide you with a future scenario that describes 3 global challenges for the next 50 years: 
+                  <br/><br/>
+                  Climate Change, Pandemic, and Artificial Intelligence. 
+                  <br/><br/>
+                  Choose a topic, come up with ideology, policies, and innovative ideas to resolve the issues, and present your ideas to the world! 
                 </a>
                 <br/>
                 <p>
-                  Feb 9th, 2021 - Feb 14th, 2021 (KST) 
+                  Feb 2th, 2021 - Feb 7th, 2021 (GMT+9) 
                 </p>
               </div>
             </div>
             <div className="main-logo-div">
-              <img src={Planet} className="logo"/ >
+              <img src={Planet} className="logo-main"/ >
             </div>
           </div>
           <div className="button-div">
-            <a href="/register/event" className="main-btn-join"> Join Now </a>
+            <Link to="/register">
+              <button className="main-btn-join"> Join Now </button>
+            </Link>
           </div>
         </div>
         <div className="timeline-container">
           <div className="timeline-title">
-            Timeline<br/>
+            <a>
+              Timeline<br/>
+            </a>
           </div> 
           <div className="timeline-line">
             <Timeline minEvents={5} varient="small" placeholder>
@@ -82,17 +88,17 @@ class Main extends Component {
                 initial={true}
                 numEvents={5}
                 color='#C4C4C4'
-                title='Registration Open'
+                title='Registration Opens'
                 subtitle='Registration for Pioneers 2071 opens'
                 // subtitle='Friday, December 18th 2020'
-                date='Dec. 18th'
+                date='Dec. 14th'
                 flag_cur={this.state.flag_one}
                 flag_prev={true}              
               />
               <TimelineEvent
                 numEvents={5}
                 color='#C4C4C4'
-                title='Registration Close'
+                title='Registration Closes'
                 subtitle='Registration for Pioneers 2071 closes'
                 // subtitle='Friday, January 1st 2021'
                 date='Jan. 1st'
@@ -102,7 +108,7 @@ class Main extends Component {
               <TimelineEvent
                 numEvents={5}
                 color='#C4C4C4'
-                title="Information Distribution"
+                title="Instructions Sent to Participants"
                 subtitle='Notifications, Documents, and Resources sent to Participants'
                 // subtitle='Monday, January 4th 2021'
                 date='Jan. 4th'

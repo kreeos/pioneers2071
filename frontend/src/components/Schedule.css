@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mulish');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
-.About {
+.Schedule {
   background: no-repeat top/100% url(../images/star.png);
   background-color: #000525;
   width: 100vw;
@@ -16,7 +16,7 @@
   font-family: 'Merriweather', serif;
 }
 
-.about-title-div {
+.schedule-title-div {
   margin-top: 25vh;
   font-size: 3rem;
   align-items: center;
@@ -26,12 +26,12 @@
   font-family: Merriweather;
 }
 
-.about-main-div {
+.schedule-main-div {
   font-size: 2rem;
   text-align: left;
 }
 
-.about-container {
+.schedule-container {
   margin-bottom: 10vh;
   margin-left: auto;
   margin-right: auto;
@@ -43,7 +43,7 @@
   text-align: left;
 }
 
-.about-category {
+.schedule-category {
   margin-right: 3vw;
   margin-top: 10px;
   margin-bottom: auto;
@@ -57,14 +57,14 @@
   font-size: 1.2rem;
 }
 
-.about-category:before {
+.schedule-category:before {
   top: 0;
   content : "";
   position: absolute;
   width   : 50px;  /* or 100px */
   border-top: 5px solid white;
 }
-.about-text {
+.schedule-text {
   text-align: left;
   margin-top: 10px;
   margin-bottom: auto;
@@ -73,6 +73,10 @@
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
+}
+
+.schedule-calendar {
+  width: 60vw;
 }
 
 .link-in-text {

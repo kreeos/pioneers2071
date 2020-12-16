@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-.Contact {
+.Complete {
   background: no-repeat top/100% url(../images/star.png);
   background-color: #000525;
   width: 100vw;
@@ -15,11 +15,11 @@
   font-family: 'Merriweather', serif;
 }
 
-.contact-container-whole {
+.complete-container-whole {
   height: 100vh;
 }
 
-.contact-title-div {
+.complete-title-div {
   margin-top: 25vh;
   font-size: 3rem;
   margin-bottom: 10vh;
@@ -28,34 +28,23 @@
   text-align: center;
 }
 
-.contact-main-div {
+.complete-main-div {
   font-size: 1.4rem;
   margin-bottom: 5vh;
   align-items: center;
-  width: 35vw;
+  width: 70vw;
   justify-content: center;
   text-align: center;
-  line-height: 30px;
-}
-
-.contact-logo-mail {
-  width: 24px;
-  height: 20px;
-  margin-right: 15px;
-  margin-top: 5px;
-  cursor: pointer;
-}
-
-.contact-logo-instagram {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
+  line-height: 40px;
+  font-family: "Mulish"
 }
 
 
-.contact-container {
+
+.complete-container {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10vh;
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -63,15 +52,4 @@
   text-align: center;
   align-items: center;
   line-height: 30px;
-}
-
-.contact-logo-div {
-  margin-top: 3vh;
-  flex-direction: row;
-  display: flex;
-}
-
-.contact-text {
-  margin-top: auto;
-  margin-bottom: auto;
 }

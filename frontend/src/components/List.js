@@ -52,8 +52,8 @@ class List extends Component {
 
     // wait for two promises
     const info = await Promise.all([
-      axios.get('http://192.249.18.101:8000/api/landing/list'),
-      axios.get('http://192.249.18.101:8000/api/landing/download')
+      axios.get('https://pioneers.kaist.ac.kr:8000/api/register/list'),
+      axios.get('https://pioneers.kaist.ac.kr:8000/api/register/download')
     ]);
 
     // takes out required values and create references to them
@@ -79,7 +79,7 @@ class List extends Component {
           <div className="List">
             <div className="title_div_list">
               <a>
-                List of Subscribers
+                List of Applicants
               </a>
             </div>
             <div className="list_div">
@@ -100,6 +100,7 @@ class List extends Component {
           :
           <div className="List">
             <Popup
+              className="list-popup"
               trigger={<a> </a>}
               modal
               nested
@@ -107,10 +108,10 @@ class List extends Component {
               closeOnDocumentClick={false}
             >
             {close => (
-              <div className="modal">
+              <div className="list-modal">
                 <form onSubmit={this.handleSubmit}>
                 <div className="modal-header"> Password Prompt </div>
-                <div className="modal-content">
+                <div className="list-modal-content">
                   {' '}
                     <label>
                       Please enter password to proceed to the page.

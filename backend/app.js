@@ -15,18 +15,19 @@ const router = express.Router();
 app.engine('html',require('ejs').renderFile);
 
 
-// const config = {
-//   key: fs.readFileSync('/etc/httpd/SSL/star.kaist.ac.kr.key'),
-//   cert: fs.readFileSync('/etc/httpd/SSL/star.kaist.ac.kr.crt')
-// };
+const config = {
+  key: fs.readFileSync(path.resolve(__dirname, './certs/pioneers.kaist.ac.kr.key')),
+  cert: fs.readFileSync(path.resolve(__dirname, './certs/pioneers.kaist.ac.kr.pem'))
+};
 
 // https.createServer(config, (req, res) => {
 //   res.writeHead(200);
 //   res.end("Hello World!")
 // }).listen(8000);
-// https.createServer(config, app).listen(3000);
 
-app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
+https.createServer(config, app).listen(8000);
+
+// app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
 
 
 // this is our MongoDB database
@@ -58,6 +59,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 // console.log(db.collections)
 
 var landingRouter = require('./routes/landing.js');
+var registerRouter = require('./routes/register.js');
 
 
 // view engine setup
@@ -71,11 +73,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/landing', landingRouter);
+app.use('/api/register', registerRouter);
 
 
 app.get('/',(req,res)=>{  
-  res.json("Welcome") 
-  // res.redirect('http://aria.sparcs.org:50300');
+  res.redirect('http://pioneers.kaist.ac.kr');
 })  //req = request 객채 , res = response 객채
 
 // catch 404 and forward to error handler
