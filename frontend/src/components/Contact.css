@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
 .Contact {
   background: no-repeat top/100% url(../images/star.png);
@@ -12,7 +12,7 @@
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
   color: white;
-  font-family: 'Merriweather', serif;
+  font-family: Mulish;
 }
 
 .contact-container-whole {
@@ -26,13 +26,14 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: "Merriweather", serif;
 }
 
 .contact-main-div {
   font-size: 1.4rem;
   margin-bottom: 5vh;
   align-items: center;
-  width: 35vw;
+  /* width: 35vw; */
   justify-content: center;
   text-align: center;
   line-height: 30px;
@@ -51,7 +52,6 @@
   height: 30px;
   cursor: pointer;
 }
-
 
 .contact-container {
   margin-left: auto;

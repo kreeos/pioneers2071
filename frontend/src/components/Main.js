@@ -1,138 +1,139 @@
-import './Main.css';
-import React, { Component } from 'react';
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
-import Logo from '../images/logo-main.png';
-import Planet from '../images/Main.png'
-import axios from 'axios'
-import Timeline from './Timeline'
-import TimelineEvent from './TimelineEvent'
-import {Link} from 'react-router-dom'
+import "./Main.css";
+import React, { Component } from "react";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
+import Logo from "../images/logo-main.png";
+import Planet from "../images/Main.png";
+import axios from "axios";
+import Timeline from "./Timeline";
+import TimelineEvent from "./TimelineEvent";
+import { Link } from "react-router-dom";
 
 class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      flag_one: false, 
-      flag_two: false, 
-      flag_three: false, 
+      flag_one: false,
+      flag_two: false,
+      flag_three: false,
       flag_four: false,
     };
   }
 
   componentDidMount() {
-    let now = Date.now()
-    let flag_one = now > 1609491600000
-    let flag_two = now > 1609750800000
-    let flag_three = now > 1610960400000
-    let flag_four = now > 1611306000000
+    let now = Date.now();
+    let flag_one = now > 1609491600000;
+    let flag_two = now > 1609750800000;
+    let flag_three = now > 1610960400000;
+    let flag_four = now > 1611306000000;
     this.setState({
       flag_one: flag_one,
       flag_two: flag_two,
       flag_three: flag_three,
       flag_four: flag_four,
-    })
+    });
   }
 
   render() {
     return (
       <div className="Main">
-        <div className="main-container">
-          <div className="main-content">
-            <div className="main-text-div">
-              <div className="slogan-div">
-                <div className="title-div">
+        <div className="container" style={{ marginTop: "24vh" }}>
+          <div className="main-content row">
+            <div className="col-sm-8">
+              <div style={{ textAlign: "left" }} className="mb-5">
+                <div style={{ fontSize: "2.5rem", fontWeight: "800" }}>
                   Pioneers 2071:
                 </div>
-                <div className="subtitle-div">
-                  Questioning the Next 50 Years     
+                <div style={{ fontSize: "1.5rem", fontWeight: "800" }}>
+                  Questioning the Next 50 Years
                 </div>
               </div>
-              <div className="main-welcome-div">
+              <div style={{ textAlign: "left" }} className="body-text">
                 <a>
-                  We provide you with a future scenario that describes 3 global challenges for the next 50 years: 
-                  <br/><br/>
-                  Climate Change, Pandemic, and Artificial Intelligence. 
-                  <br/><br/>
-                  Choose a topic, come up with ideology, policies, and innovative ideas to resolve the issues, and present your ideas to the world! 
+                  We provide you with a future scenario that describes 3 global
+                  challenges for the next 50 years:
+                  <br />
+                  <br />
+                  Climate Change, Pandemic, and Artificial Intelligence.
+                  <br />
+                  <br />
+                  Choose a topic, come up with ideology, policies, and
+                  innovative ideas to resolve the issues, and present your ideas
+                  to the world!
                 </a>
-                <br/>
-                <p>
-                  Feb 2th, 2021 - Feb 7th, 2021 (GMT+9) 
-                </p>
+                <br />
+                <p>Feb 2th, 2021 - Feb 7th, 2021 (GMT+9)</p>
               </div>
             </div>
-            <div className="main-logo-div">
-              <img src={Planet} className="logo-main"/ >
+            <div className="col-sm-4">
+              <img src={Planet} className="logo-main" />
             </div>
           </div>
-          <div className="button-div">
+          <div class="d-flex justify-content-center">
             <Link to="/register">
               <button className="main-btn-join"> Join Now </button>
             </Link>
           </div>
         </div>
-        <div className="timeline-container">
+        <div style={{ marginTop: "100px" }}>
           <div className="timeline-title">
             <a>
-              Timeline<br/>
+              Timeline
+              <br />
             </a>
-          </div> 
-          <div className="timeline-line">
+          </div>
+          <div className="timeline-line mb-5">
             <Timeline minEvents={5} varient="small" placeholder>
-              <TimelineEvent
-                numEvents={5}
-                init={true}
-              />
+              <TimelineEvent numEvents={5} init={true} />
               <TimelineEvent
                 initial={true}
                 numEvents={5}
-                color='#C4C4C4'
-                title='Registration Opens'
-                subtitle='Registration for Pioneers 2071 opens'
+                color="#C4C4C4"
+                title="Registration Opens"
+                subtitle="Registration for Pioneers 2071 opens"
                 // subtitle='Friday, December 18th 2020'
-                date='Dec. 14th'
+                date="Dec. 14th"
                 flag_cur={this.state.flag_one}
-                flag_prev={true}              
+                flag_prev={true}
               />
               <TimelineEvent
                 numEvents={5}
-                color='#C4C4C4'
-                title='Registration Closes'
-                subtitle='Registration for Pioneers 2071 closes'
+                color="#C4C4C4"
+                title="Registration Closes"
+                subtitle="Registration for Pioneers 2071 closes"
                 // subtitle='Friday, January 1st 2021'
-                date='Jan. 1st'
+                date="Jan. 1st"
                 flag_cur={this.state.flag_two}
                 flag_prev={this.state.flag_one}
               />
               <TimelineEvent
                 numEvents={5}
-                color='#C4C4C4'
+                color="#C4C4C4"
                 title="Instructions Sent to Participants"
-                subtitle='Notifications, Documents, and Resources sent to Participants'
+                subtitle="Notifications, Documents, and Resources sent to Participants"
                 // subtitle='Monday, January 4th 2021'
-                date='Jan. 4th'
+                date="Jan. 4th"
                 flag_cur={this.state.flag_three}
                 flag_prev={this.state.flag_two}
               />
               <TimelineEvent
                 numEvents={5}
-                color='#C4C4C4'
+                color="#C4C4C4"
                 title="Proposal Submission"
-                subtitle='Proposal submitted by participants'
+                subtitle="Proposal submitted by participants"
                 // subtitle='Monday, January 18th 2021'
-                date='Jan. 18th'
+                date="Jan. 18th"
                 flag_cur={this.state.flag_four}
                 flag_prev={this.state.flag_three}
               />
               <TimelineEvent
                 numEvents={5}
-                color='#C4C4C4'
+                color="#C4C4C4"
                 title="Announcement"
-                subtitle='Result of Round 1 Announced'
+                subtitle="Result of Round 1 Announced"
                 // subtitle='Friday, January 22th 2021'
-                date='Jan. 22nd'
-                flag_cur={false||this.state.flag_four}
+                date="Jan. 22nd"
+                flag_cur={false || this.state.flag_four}
                 flag_prev={this.state.flag_four}
               />
               <TimelineEvent
@@ -144,6 +145,113 @@ class Main extends Component {
           </div>
         </div>
       </div>
+      // <div className="Main">
+      //   <div className="main-container">
+      //     <div className="main-content">
+      //       <div className="main-text-div">
+      //         <div className="slogan-div">
+      //           <div className="title-div">Pioneers 2071:</div>
+      //           <div className="subtitle-div">
+      //             Questioning the Next 50 Years
+      //           </div>
+      //         </div>
+      //         <div className="main-welcome-div">
+      //           <a>
+      //             We provide you with a future scenario that describes 3 global
+      //             challenges for the next 50 years:
+      //             <br />
+      //             <br />
+      //             Climate Change, Pandemic, and Artificial Intelligence.
+      //             <br />
+      //             <br />
+      //             Choose a topic, come up with ideology, policies, and
+      //             innovative ideas to resolve the issues, and present your ideas
+      //             to the world!
+      //           </a>
+      //           <br />
+      //           <p>Feb 2th, 2021 - Feb 7th, 2021 (GMT+9)</p>
+      //         </div>
+      //       </div>
+      //       <div className="main-logo-div">
+      //         <img src={Planet} className="logo-main" />
+      //       </div>
+      //     </div>
+      //     <div className="button-div">
+      //       <Link to="/register">
+      //         <button className="main-btn-join"> Join Now </button>
+      //       </Link>
+      //     </div>
+      //   </div>
+      //   <div className="timeline-container">
+      //     <div className="timeline-title">
+      //       <a>
+      //         Timeline
+      //         <br />
+      //       </a>
+      //     </div>
+      //     <div className="timeline-line">
+      //       <Timeline minEvents={5} varient="small" placeholder>
+      //         <TimelineEvent numEvents={5} init={true} />
+      //         <TimelineEvent
+      //           initial={true}
+      //           numEvents={5}
+      //           color="#C4C4C4"
+      //           title="Registration Opens"
+      //           subtitle="Registration for Pioneers 2071 opens"
+      //           // subtitle='Friday, December 18th 2020'
+      //           date="Dec. 14th"
+      //           flag_cur={this.state.flag_one}
+      //           flag_prev={true}
+      //         />
+      //         <TimelineEvent
+      //           numEvents={5}
+      //           color="#C4C4C4"
+      //           title="Registration Closes"
+      //           subtitle="Registration for Pioneers 2071 closes"
+      //           // subtitle='Friday, January 1st 2021'
+      //           date="Jan. 1st"
+      //           flag_cur={this.state.flag_two}
+      //           flag_prev={this.state.flag_one}
+      //         />
+      //         <TimelineEvent
+      //           numEvents={5}
+      //           color="#C4C4C4"
+      //           title="Instructions Sent to Participants"
+      //           subtitle="Notifications, Documents, and Resources sent to Participants"
+      //           // subtitle='Monday, January 4th 2021'
+      //           date="Jan. 4th"
+      //           flag_cur={this.state.flag_three}
+      //           flag_prev={this.state.flag_two}
+      //         />
+      //         <TimelineEvent
+      //           numEvents={5}
+      //           color="#C4C4C4"
+      //           title="Proposal Submission"
+      //           subtitle="Proposal submitted by participants"
+      //           // subtitle='Monday, January 18th 2021'
+      //           date="Jan. 18th"
+      //           flag_cur={this.state.flag_four}
+      //           flag_prev={this.state.flag_three}
+      //         />
+      //         <TimelineEvent
+      //           numEvents={5}
+      //           color="#C4C4C4"
+      //           title="Announcement"
+      //           subtitle="Result of Round 1 Announced"
+      //           // subtitle='Friday, January 22th 2021'
+      //           date="Jan. 22nd"
+      //           flag_cur={false || this.state.flag_four}
+      //           flag_prev={this.state.flag_four}
+      //         />
+      //         <TimelineEvent
+      //           numEvents={5}
+      //           end={true}
+      //           flag_cur={this.state.flag_four}
+      //         />
+      //       </Timeline>
+      //     </div>
+      //   </div>
+      // </div>
     );
   }
 }

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Mulish');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mulish");
 
 .Main {
   background: no-repeat top/100% url(../images/star.png);
@@ -11,11 +11,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: left;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .main-container {
-  padding-left: 10vw;
   margin-top: 25vh;
   height: 100vh;
   text-align: center;
@@ -26,7 +25,6 @@
 .main-content {
   display: flex;
   flex-direction: row;
-  margin-left: calc((35vw - 400px)/2);
   font-family: "Mulish";
 }
 
@@ -48,10 +46,6 @@
   text-align: left;
   margin-bottom: 7vh;
   width: 45vw;
-}
-
-.title-div {
-
 }
 
 .subtitle-div {
@@ -76,27 +70,27 @@
 }
 
 .main-btn-join {
-  display:inline-block;
-  margin:0 0.3em 0.3em 0;
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
   width: 250px;
   height: 50px;
   font-size: 1.3rem;
-  text-align:center;
+  text-align: center;
   transition: all 0.2s;
   /*font-size: 1.5rem;*/
-  border: 1px solid #E4A86F;
+  border: 1px solid #e4a86f;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
   border-radius: 50px;
-  font-family: 'Mulish', serif;
-  color: #FFFFFF;
+  font-family: "Mulish", serif;
+  color: #ffffff;
   text-decoration: none;
-  background: #E4A86F;
+  background: #e4a86f;
 }
 
-.main-btn-join:hover{
-  color: #E4A86F;
-  background-color: #FFFFFF;
+.main-btn-join:hover {
+  color: #e4a86f;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
@@ -104,7 +98,7 @@
   margin-top: 100px;
   text-align: left;
   margin-bottom: 25vh;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .timeline-title {
@@ -112,20 +106,19 @@
   margin-bottom: 10vh;
   position: relative;
   margin-left: 15%;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .timeline-title:before {
   margin-top: -10px;
   top: 0;
-  content : "";
+  content: "";
   position: absolute;
-  width   : 40px;  /* or 100px */
+  width: 40px; /* or 100px */
   border-top: 5px solid white;
 }
 
 .timeline-line {
   width: 100vw;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
-

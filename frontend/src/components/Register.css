@@ -3,7 +3,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
 .Register {
   background: no-repeat top/100% url(../images/star.png);
@@ -15,9 +15,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
-
 
 .register-title-div {
   font-size: 3rem;
@@ -25,34 +24,33 @@
   margin-top: 25vh;
 }
 
-.btn-join{
-  display:inline-block;
-  margin:0 0.3em 0.3em 0;
-  text-decoration:none;
-  font-weight:300;
+.btn-join {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  text-decoration: none;
+  font-weight: 300;
   font-size: 1.3rem;
-  text-align:center;
+  text-align: center;
   transition: all 0.2s;
   /*font-size: 1.5rem;*/
-  background: #FFFFFF;
+  background: #ffffff;
   /* Main Color */
-  border: 1px solid #2A36A2;
+  border: 1px solid #2a36a2;
   box-sizing: border-box;
   box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
   border-radius: 50px;
-  color: #2A36A1;
+  color: #2a36a1;
 }
 
-.btn-join:hover{
-  color:#FFFFFF;
-  background-color:#2A36A1;
+.btn-join:hover {
+  color: #ffffff;
+  background-color: #2a36a1;
 }
 
 .btn-container {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-
 
 .register-container {
   margin-bottom: 5vh;
@@ -64,6 +62,17 @@
   justify-content: center;
   align-items: center;
   text-align: left;
+}
+
+@media (max-width: 767px) {
+  .register-container {
+    margin-bottom: 10vh;
+    font-size: 1.5rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
 }
 
 .register-category {
@@ -80,23 +89,53 @@
   font-size: 1.2rem;
 }
 
+@media (max-width: 767px) {
+  .register-category {
+    margin-right: 3vw;
+    margin-top: 10px;
+    margin-bottom: auto;
+    position: relative;
+    font-size: 24px;
+    padding-top: 10px;
+    width: 10vw;
+    font-weight: bold;
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+}
+
 .register-category:before {
   top: 0;
-  content : "";
+  content: "";
   position: absolute;
-  width   : 50px;  /* or 100px */
+  width: 50px; /* or 100px */
   border-top: 5px solid white;
 }
 .register-text {
   text-align: left;
   margin-top: 10px;
   margin-bottom: auto;
-  width: 60vw;
+  width: 80%;
   font-size: 1.2rem;
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
   line-height: 30px;
+}
+
+@media (max-width: 767px) {
+  .register-text {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: auto;
+    width: 100%;
+    font-size: 18px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+  }
 }
 
 .register-form {
@@ -106,15 +145,14 @@
   align-items: center;
 }
 
-.register-input-full[type="text"]
-{
-    font-size: 1.1rem;
+.register-input-full[type="text"] {
+  font-size: 1.1rem;
 }
 
 .register-input-full {
   background: rgba(255, 255, 255, 0.5);
   /* Main Color */
-  border: 1px solid #2A36A2;
+  border: 1px solid #2a36a2;
   box-sizing: border-box;
   border-radius: 6px;
   width: 100%;
@@ -127,20 +165,18 @@
   font-size: 1.1rem;
 }
 
-.register-input-half[type="text"]
-{
-    font-size: 1.1rem;
+.register-input-half[type="text"] {
+  font-size: 1.1rem;
 }
 
-.register-input-half[type="select"]
-{
-    font-size: 1.1rem;
+.register-input-half[type="select"] {
+  font-size: 1.1rem;
 }
 
 .register-input-half {
   background: rgba(255, 255, 255, 0.5);
   /* Main Color */
-  border: 1px solid #2A36A2;
+  border: 1px solid #2a36a2;
   box-sizing: border-box;
   border-radius: 6px;
   width: 92%;
@@ -153,15 +189,14 @@
   font-size: 1.1rem;
 }
 
-.register-input-half-right[type="text"]
-{
-    font-size: 1.1rem;
+.register-input-half-right[type="text"] {
+  font-size: 1.1rem;
 }
 
 .register-input-half-right {
   background: rgba(255, 255, 255, 0.5);
   /* Main Color */
-  border: 1px solid #2A36A2;
+  border: 1px solid #2a36a2;
   box-sizing: border-box;
   border-radius: 6px;
   width: 92%;
@@ -173,6 +208,51 @@
 .register-input-half-right::placeholder {
   color: black;
   font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+  .register-input-half[type="text"] {
+    font-size: 1.1rem;
+  }
+
+  .register-input-half[type="select"] {
+    font-size: 1.1rem;
+  }
+
+  .register-input-half {
+    background: rgba(255, 255, 255, 0.5);
+    /* Main Color */
+    border: 1px solid #2a36a2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 100%;
+    height: 54px;
+  }
+
+  .register-input-half::placeholder {
+    color: black;
+    font-size: 1.1rem;
+  }
+
+  .register-input-half-right[type="text"] {
+    font-size: 1.1rem;
+  }
+
+  .register-input-half-right {
+    background: rgba(255, 255, 255, 0.5);
+    /* Main Color */
+    border: 1px solid #2a36a2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 100%;
+    margin-left: 0px;
+    height: 54px;
+  }
+
+  .register-input-half-right::placeholder {
+    color: black;
+    font-size: 1.1rem;
+  }
 }
 
 .hidden-div {
@@ -187,13 +267,26 @@
   margin-left: 8%;
 }
 
+@media (max-width: 767px) {
+  .input-label-half-right {
+    margin-bottom: 5px;
+    margin-left: 0px;
+  }
+}
+
 .div-input-horizontal {
   display: flex;
   flex-direction: row;
 }
 
+@media (max-width: 767px) {
+  .div-input-horizontal {
+    display: block;
+  }
+}
+
 .information-section-container {
-  width: 50vw;
+  width: 100%;
 }
 
 .input-container {
@@ -218,6 +311,22 @@
   border-bottom: 1px solid white;
 }
 
+@media (max-width: 767px) {
+  .information-container {
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10vh;
+    border-bottom: 1px solid white;
+  }
+}
+
 .register-category {
   margin-right: 2vw;
   margin-top: 10px;
@@ -232,11 +341,27 @@
   font-size: 1.2rem;
 }
 
-.register-category:before {
-  top: 0;
-  content : "";
-  position: absolute;
-  width   : 50px;  /* or 100px */
-  border-top: 5px solid white;
+@media (max-width: 767px) {
+  .register-category {
+    margin-right: 3vw;
+    margin-top: 10px;
+    margin-bottom: auto;
+    position: relative;
+    font-size: 24px;
+    padding-top: 10px;
+    width: 10vw;
+    font-weight: bold;
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
 }
 
+.register-category:before {
+  top: 0;
+  content: "";
+  position: absolute;
+  width: 50px; /* or 100px */
+  border-top: 5px solid white;
+}
