@@ -179,29 +179,84 @@
   font-family: Mulish;
 }
 
-.modal-header {
+.custom-modal-header {
   font-size: 1.7rem;
   font-weight: bold;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 0.5rem;
 }
 
-.modal-subtitle {
+.custom-modal-subtitle {
   font-size: 1.2rem;
   font-style: italic;
   font-weight: normal;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.modal-content {
+@media (max-width: 767px) {
+  .custom-modal-header {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+  }
+
+  .custom-modal-subtitle {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.custom-modal-content {
   text-align: left;
   text-indent: 1.5rem;
   font-size: 0.9rem;
   line-height: 20px;
 }
 
-.modal-text {
+.custom-modal-text {
   padding-left: 2vw;
   padding-right: 2vw;
 }
 
 .popup-content {
-  width: 70vw;
+  width: 70%;
+  /* max-width: 800px; */
+  max-height: 70%;
+  overflow: scroll;
+}
+
+@media (max-width: 767px) {
+  .popup-content {
+    width: 80%;
+    max-height: 70%;
+    overflow: scroll;
+  }
+}
+
+.modal-background {
+  background: no-repeat top/100% url(../images/modal_background.png);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 767px) {
+  .modal-background {
+    background: no-repeat top/100% url(../images/modal_background.png);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.no-padding-content {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }

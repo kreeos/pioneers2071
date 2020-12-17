@@ -27,19 +27,21 @@ class Scenario extends Component {
                   trigger={<img src={Pandemic} className="scenario-icon" />}
                   modal
                   nested
-                  className="scenario-popup-content"
+                  className="scenario-popup-content no-padding"
                 >
                   {(close) => (
-                    <div className="modal">
-                      <div className="modal-header">
+                    <div
+                      className="modal-background"
+                      style={{ paddingTop: "3rem", paddingBottom: "3rem" }}
+                    >
+                      <div className="custom-modal-header">
                         The World With the Invisible Threat
-                        <br />
-                        <a className="modal-subtitle">
-                          The Next Outbreak: PandemicPlanet
-                        </a>
                       </div>
-                      <div className="modal-content">
-                        <div className="modal-text">
+                      <div className="custom-modal-subtitle">
+                        The Next Outbreak: PandemicPlanet
+                      </div>
+                      <div className="custom-modal-content">
+                        <div className="custom-modal-text">
                           <p>
                             A new infectious disease breaks out in 2030.
                             Scientists estimate that this disease is a type of
@@ -105,19 +107,21 @@ class Scenario extends Component {
                   trigger={<img src={Climate} className="scenario-icon" />}
                   modal
                   nested
-                  className="scenario-popup-content"
+                  className="scenario-popup-content no-padding"
                 >
                   {(close) => (
-                    <div className="modal">
-                      <div className="modal-header">
+                    <div
+                      className="modal-background"
+                      style={{ paddingTop: "3rem", paddingBottom: "3rem" }}
+                    >
+                      <div className="custom-modal-header">
                         Society Made of Burnt Fuels
-                        <br />
-                        <a className="modal-subtitle">
-                          Environment: Pollution and Climate Change
-                        </a>
                       </div>
-                      <div className="modal-content">
-                        <div className="modal-text">
+                      <div className="custom-modal-subtitle">
+                        Environment: Pollution and Climate Change
+                      </div>
+                      <div className="custom-modal-content">
+                        <div className="custom-modal-text">
                           <p>
                             A country called KAISTia gained independence just
                             after a global war ended, and struggled with extreme
@@ -182,19 +186,21 @@ class Scenario extends Component {
                   trigger={<img src={AI} className="scenario-icon" />}
                   modal
                   nested
-                  className="scenario-popup-content"
+                  className="scenario-popup-content no-padding"
                 >
                   {(close) => (
-                    <div className="modal">
-                      <div className="modal-header">
+                    <div
+                      className="modal-background"
+                      style={{ paddingTop: "3rem", paddingBottom: "3rem" }}
+                    >
+                      <div className="custom-modal-header">
                         The World of an "Intelligent" Mind
-                        <br />
-                        <a className="modal-subtitle">
-                          Education, Economics, and AI
-                        </a>
                       </div>
-                      <div className="modal-content">
-                        <div className="modal-text">
+                      <div className="custom-modal-subtitle">
+                        Education, Economics, and AI
+                      </div>
+                      <div className="custom-modal-content">
+                        <div className="custom-modal-text">
                           <p>
                             In the year 2071, a completely new era of
                             technological development has come. Artificial
