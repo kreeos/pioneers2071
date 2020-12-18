@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 // import NavBaritem from "./NavBaritem";
 import Logo from "../../images/logo-menu.png";
 // import { NavLink } from "react-router-dom";
@@ -69,14 +69,14 @@ class NavBar extends Component {
         style={{ backgroundColor: "rgba(0,0,0,0.8)" }}
       >
         <div className="container">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/main">
             <Nav.Link href="/main">
               <img link="/" style={{ maxWidth: 200 }} src={Logo} />
             </Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" class="Navbar-custom">
-            <Nav className="mr-auto">
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto Navbar-custom">
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/about">Pioneer 2071</NavDropdown.Item>
                 <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
