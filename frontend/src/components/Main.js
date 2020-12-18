@@ -8,6 +8,7 @@ import axios from "axios";
 import Timeline from "./Timeline";
 import TimelineEvent from "./TimelineEvent";
 import { Link } from "react-router-dom";
+import MobileTimeline from "./MobileTimeline";
 
 class Main extends Component {
   constructor(props) {
@@ -18,6 +19,72 @@ class Main extends Component {
       flag_three: false,
       flag_four: false,
     };
+    let width = window.innerWidth;
+    if (width > 768) {
+      this.state.renderComponent = (
+        <Timeline minEvents={5} varient="small" placeholder>
+          <TimelineEvent numEvents={5} init={true} />
+          <TimelineEvent
+            initial={true}
+            numEvents={5}
+            color="#C4C4C4"
+            title="Registration Opens"
+            subtitle="Registration for Pioneers 2071 opens"
+            // subtitle='Friday, December 18th 2020'
+            date="Dec. 14th"
+            flag_cur={this.state.flag_one}
+            flag_prev={true}
+          />
+          <TimelineEvent
+            numEvents={5}
+            color="#C4C4C4"
+            title="Registration Closes"
+            subtitle="Registration for Pioneers 2071 closes"
+            // subtitle='Friday, January 1st 2021'
+            date="Jan. 1st"
+            flag_cur={this.state.flag_two}
+            flag_prev={this.state.flag_one}
+          />
+          <TimelineEvent
+            numEvents={5}
+            color="#C4C4C4"
+            title="Instructions Sent to Participants"
+            subtitle="Notifications, Documents, and Resources sent to Participants"
+            // subtitle='Monday, January 4th 2021'
+            date="Jan. 4th"
+            flag_cur={this.state.flag_three}
+            flag_prev={this.state.flag_two}
+          />
+          <TimelineEvent
+            numEvents={5}
+            color="#C4C4C4"
+            title="Proposal Submission"
+            subtitle="Proposal submitted by participants"
+            // subtitle='Monday, January 18th 2021'
+            date="Jan. 18th"
+            flag_cur={this.state.flag_four}
+            flag_prev={this.state.flag_three}
+          />
+          <TimelineEvent
+            numEvents={5}
+            color="#C4C4C4"
+            title="Announcement"
+            subtitle="Result of Round 1 Announced"
+            // subtitle='Friday, January 22th 2021'
+            date="Jan. 22nd"
+            flag_cur={false || this.state.flag_four}
+            flag_prev={this.state.flag_four}
+          />
+          <TimelineEvent
+            numEvents={5}
+            end={true}
+            flag_cur={this.state.flag_four}
+          />
+        </Timeline>
+      );
+    } else {
+      this.state.renderComponent = <MobileTimeline />;
+    }
   }
 
   componentDidMount() {
@@ -82,67 +149,7 @@ class Main extends Component {
               <br />
             </a>
           </div>
-          <div className="timeline-line mb-5">
-            <Timeline minEvents={5} varient="small" placeholder>
-              <TimelineEvent numEvents={5} init={true} />
-              <TimelineEvent
-                initial={true}
-                numEvents={5}
-                color="#C4C4C4"
-                title="Registration Opens"
-                subtitle="Registration for Pioneers 2071 opens"
-                // subtitle='Friday, December 18th 2020'
-                date="Dec. 14th"
-                flag_cur={this.state.flag_one}
-                flag_prev={true}
-              />
-              <TimelineEvent
-                numEvents={5}
-                color="#C4C4C4"
-                title="Registration Closes"
-                subtitle="Registration for Pioneers 2071 closes"
-                // subtitle='Friday, January 1st 2021'
-                date="Jan. 1st"
-                flag_cur={this.state.flag_two}
-                flag_prev={this.state.flag_one}
-              />
-              <TimelineEvent
-                numEvents={5}
-                color="#C4C4C4"
-                title="Instructions Sent to Participants"
-                subtitle="Notifications, Documents, and Resources sent to Participants"
-                // subtitle='Monday, January 4th 2021'
-                date="Jan. 4th"
-                flag_cur={this.state.flag_three}
-                flag_prev={this.state.flag_two}
-              />
-              <TimelineEvent
-                numEvents={5}
-                color="#C4C4C4"
-                title="Proposal Submission"
-                subtitle="Proposal submitted by participants"
-                // subtitle='Monday, January 18th 2021'
-                date="Jan. 18th"
-                flag_cur={this.state.flag_four}
-                flag_prev={this.state.flag_three}
-              />
-              <TimelineEvent
-                numEvents={5}
-                color="#C4C4C4"
-                title="Announcement"
-                subtitle="Result of Round 1 Announced"
-                // subtitle='Friday, January 22th 2021'
-                date="Jan. 22nd"
-                flag_cur={false || this.state.flag_four}
-                flag_prev={this.state.flag_four}
-              />
-              <TimelineEvent
-                numEvents={5}
-                end={true}
-                flag_cur={this.state.flag_four}
-              />
-            </Timeline>
-          </div>
+          <div className="timeline-line mb-5">{this.state.renderComponent}</div>
         </div>
       </div>
       // <div className="Main">

@@ -1,58 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish');
+@import url("https://fonts.googleapis.com/css2?family=Mulish");
 
 .timeline-event-title {
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: 800;
-	font-size: 1.5rem;
-	line-height: 30px;
-	color: #E4A86F;
-	height: 10vh;
-	margin-bottom: 3vh;
-	width: 80%;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #e4a86f;
+  height: 10vh;
+  margin-bottom: 3vh;
+  width: 80%;
+}
+
+@media (max-width: 1024px) {
+  .timeline-event-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #e4a86f;
+    height: 10vh;
+    margin-bottom: 3vh;
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .timeline-event-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #e4a86f;
+    height: 10vh;
+    margin-bottom: 3vh;
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline-event-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #e4a86f;
+    height: 10vh;
+    margin-bottom: 3vh;
+    width: 80%;
+  }
 }
 
 .timeline-event-subtitle {
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1rem;
-	line-height: 22px;
-	margin-top: 5vh;
-	color: #FFFFFF;
-	width: 80%;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 22px;
+  margin-top: 5vh;
+  color: #ffffff;
+  width: 80%;
 }
 
 .timeline-event-date {
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: 600;
-	text-align: left;
-	font-size: 1.2rem;
-	line-height: 150%;
-	color: #FFFFFF;
-	width: 100%;
-	margin-bottom: 3vh;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 3vh;
 }
 
+@media (max-width: 1024px) {
+  .timeline-event-date {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .timeline-event-date {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline-event-date {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 0.7rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+}
 
 .timeline-event-date-init {
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: 600;
-	text-align: left;
-	font-size: 1.2rem;
-	line-height: 150%;
-	color: #FFFFFF;
-	width: 100%;
-	margin-bottom: 3vh;
-	visibility: hidden;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 150%;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 3vh;
+  visibility: hidden;
 }
 
 .timeline-text-container {
 }
 
-
 .timeline-event-container {
-	width: 100%;
+  width: 100%;
 }
