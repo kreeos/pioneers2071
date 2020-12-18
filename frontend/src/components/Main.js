@@ -116,7 +116,7 @@ class Main extends Component {
                 </div>
               </div>
               <div style={{ textAlign: "left" }} className="body-text">
-                <a>
+                <div>
                   We provide you with a future scenario that describes 3 global
                   challenges for the next 50 years:
                   <br />
@@ -127,7 +127,7 @@ class Main extends Component {
                   Choose a topic, come up with ideology, policies, and
                   innovative ideas to resolve the issues, and present your ideas
                   to the world!
-                </a>
+                </div>
                 <br />
                 <p>Feb 2th, 2021 - Feb 7th, 2021 (GMT+9)</p>
               </div>
