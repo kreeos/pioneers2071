@@ -24,6 +24,85 @@ class Scenario extends Component {
             <div className="scenario-popup-container">
               <div className="each-popup">
                 <Popup
+                  trigger={<img src={Climate} className="scenario-icon" />}
+                  modal
+                  nested
+                  className="scenario-popup-content no-padding"
+                >
+                  {(close) => (
+                    <div
+                      className="modal-background"
+                      style={{ paddingTop: "3rem", paddingBottom: "3rem" }}
+                    >
+                      <div className="custom-modal-header">
+                        Society Made of Burnt Fuels
+                      </div>
+                      <div className="custom-modal-subtitle">
+                        Environment: Pollution and Climate Change
+                      </div>
+                      <div className="custom-modal-content">
+                        <div className="custom-modal-text">
+                          <p>
+                            A country called KAISTia gained independence just
+                            after a global war ended, and struggled with extreme
+                            poverty. Over time, other countries repaired
+                            themselves from the scars of the war and boosted
+                            development through the massive operation of
+                            factories that constantly emit smoke. In contrast,
+                            the people of KAISTia have barely made ends meet by
+                            farming and breeding livestock in difficult
+                            conditions without electrical facilities and
+                            waterworks. While other countries have achieved a
+                            high level of national growth, KAISTia just began
+                            stepping forward with national development.
+                          </p>
+                          <p>
+                            Over several decades, emissions that were discharged
+                            from the numerous factories in other countries have
+                            elevated the temperature of the Earth and worsened
+                            the air quality, which is causing the plants to
+                            wither. Countries around the world are only now
+                            aware of the crisis. However, KAISTia has become a
+                            developing country with a rapid growth rate. The
+                            smoke that is being emitted from factories in this
+                            country is constantly mixing with the murky air and
+                            covering the world. International treaties have been
+                            drawn up to prevent smoke from being generated, and
+                            other countries are expressing their discontent over
+                            KAISTia.
+                          </p>
+                          <p>
+                            KAISTia was slow in entering the race of national
+                            growth. It can now actively operate industries, but
+                            this process is causing air pollutant emissions.
+                            Other countries accomplished considerable
+                            development through large-scale operation of
+                            factories in the past, whereas KAISTia is only now
+                            engaging in national development. Although KAISTia
+                            can advance itself at present, issues with its
+                            economic development are colliding with global
+                            environmental issues. Besides, developed countries
+                            are trying to apply universal conditions to the
+                            small country of KAISTia in terms of environmental
+                            issues. People in KAISTia are also suffering from
+                            the air that is full of smoke, and this country has
+                            met with difficulty in making its decisions.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </Popup>
+                <div className="scenario-icon-title">
+                  <a>
+                    {" "}
+                    Society Made of
+                    <br /> Burnt Fuels{" "}
+                  </a>
+                </div>
+              </div>
+              <div className="each-popup">
+                <Popup
                   trigger={<img src={Pandemic} className="scenario-icon" />}
                   modal
                   nested
@@ -99,85 +178,6 @@ class Scenario extends Component {
                     {" "}
                     The World With the
                     <br /> Invisible Threat{" "}
-                  </a>
-                </div>
-              </div>
-              <div className="each-popup">
-                <Popup
-                  trigger={<img src={Climate} className="scenario-icon" />}
-                  modal
-                  nested
-                  className="scenario-popup-content no-padding"
-                >
-                  {(close) => (
-                    <div
-                      className="modal-background"
-                      style={{ paddingTop: "3rem", paddingBottom: "3rem" }}
-                    >
-                      <div className="custom-modal-header">
-                        Society Made of Burnt Fuels
-                      </div>
-                      <div className="custom-modal-subtitle">
-                        Environment: Pollution and Climate Change
-                      </div>
-                      <div className="custom-modal-content">
-                        <div className="custom-modal-text">
-                          <p>
-                            A country called KAISTia gained independence just
-                            after a global war ended, and struggled with extreme
-                            poverty. Over time, other countries repaired
-                            themselves from the scars of the war and boosted
-                            development through the massive operation of
-                            factories that constantly emit smoke. In contrast,
-                            the people of KAISTia have barely made ends meet by
-                            farming and breeding livestock in difficult
-                            conditions without electrical facilities and
-                            waterworks. While other countries have achieved a
-                            high level of national growth, KAISTia just began
-                            stepping forward with national development.
-                          </p>
-                          <p>
-                            Over several decades, emissions that were discharged
-                            from the numerous factories in other countries have
-                            elevated the temperature of the Earth and worsened
-                            the air quality, which is causing the plants to
-                            wither. Countries around the world are only now
-                            aware of the crisis. However, KAISTia has become a
-                            developing country with a rapid growth rate. The
-                            smoke that is being emitted from factories in this
-                            country is constantly mixing with the murky air and
-                            covering the world. International treaties have been
-                            drawn up to prevent smoke from being generated, and
-                            other countries are expressing their discontent over
-                            KAISTia.
-                          </p>
-                          <p>
-                            KAISTia was slow in entering the race of national
-                            growth. It can now actively operate industries, but
-                            this process is causing air pollutant emissions.
-                            Other countries accomplished considerable
-                            development through large-scale operation of
-                            factories in the past, whereas KAISTia is only now
-                            engaging in national development. Although KAISTia
-                            can advance itself at present, issues with its
-                            economic development are colliding with global
-                            environmental issues. Besides, developed countries
-                            are trying to apply universal conditions to the
-                            small country of KAISTia in terms of environmental
-                            issues. People in KAISTia are also suffering from
-                            the air that is full of smoke, and this country has
-                            met with difficulty in making its decisions.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </Popup>
-                <div className="scenario-icon-title">
-                  <a>
-                    {" "}
-                    Society Made of
-                    <br /> Burnt Fuels{" "}
                   </a>
                 </div>
               </div>
