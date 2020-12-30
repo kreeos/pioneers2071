@@ -35,7 +35,7 @@ class Register extends Component {
               <a>Application Deadlines</a>
             </div>
             <div className="register-text">
-              <a>Dec 14, 2020–Jan 1, 2021 (GMT+9)</a>
+              <a>Dec 14th, 2020 – Jan 15th, 2021 (GMT+9)</a>
             </div>
           </div>
           <div className="register-container">

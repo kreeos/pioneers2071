@@ -58,7 +58,7 @@ export default function MobileTimeline() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography className="date-text" color="#ffffff">
-            Jan. 1st
+            Jan. 15th
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -77,26 +77,7 @@ export default function MobileTimeline() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography className="date-text" color="#ffffff">
-            Jan. 4th
-          </Typography>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot color="grey"></TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>
-          <Typography className="title-text" component="h1">
-            Registration Closes
-          </Typography>
-          <Typography className="content-text">
-            Registration for Pioneers 2071 closes
-          </Typography>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineOppositeContent>
-          <Typography className="date-text" color="#ffffff">
-            Jan. 18th
+            Jan. 22nd
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -115,7 +96,7 @@ export default function MobileTimeline() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography className="date-text" color="#ffffff">
-            Jan. 22nd
+            Jan. 25th
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>

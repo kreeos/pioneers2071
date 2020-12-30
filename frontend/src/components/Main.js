@@ -22,11 +22,11 @@ class Main extends Component {
     let width = window.innerWidth;
     if (width > 768) {
       this.state.renderComponent = (
-        <Timeline minEvents={5} varient="small" placeholder>
-          <TimelineEvent numEvents={5} init={true} />
+        <Timeline minEvents={4} varient="small" placeholder>
+          <TimelineEvent numEvents={4} init={true} />
           <TimelineEvent
             initial={true}
-            numEvents={5}
+            numEvents={4}
             color="#C4C4C4"
             title="Registration Opens"
             subtitle="Registration for Pioneers 2071 opens"
@@ -36,47 +36,37 @@ class Main extends Component {
             flag_prev={true}
           />
           <TimelineEvent
-            numEvents={5}
+            numEvents={4}
             color="#C4C4C4"
             title="Registration Closes"
             subtitle="Registration for Pioneers 2071 closes"
             // subtitle='Friday, January 1st 2021'
-            date="Jan. 1st"
+            date="Jan. 15th"
             flag_cur={this.state.flag_two}
             flag_prev={this.state.flag_one}
           />
           <TimelineEvent
-            numEvents={5}
-            color="#C4C4C4"
-            title="Instructions Sent to Participants"
-            subtitle="Notifications, Documents, and Resources sent to Participants"
-            // subtitle='Monday, January 4th 2021'
-            date="Jan. 4th"
-            flag_cur={this.state.flag_three}
-            flag_prev={this.state.flag_two}
-          />
-          <TimelineEvent
-            numEvents={5}
+            numEvents={4}
             color="#C4C4C4"
             title="Proposal Submission"
             subtitle="Proposal submitted by participants"
             // subtitle='Monday, January 18th 2021'
-            date="Jan. 18th"
+            date="Jan. 22nd"
             flag_cur={this.state.flag_four}
             flag_prev={this.state.flag_three}
           />
           <TimelineEvent
-            numEvents={5}
+            numEvents={4}
             color="#C4C4C4"
             title="Announcement"
             subtitle="Result of Round 1 Announced"
             // subtitle='Friday, January 22th 2021'
-            date="Jan. 22nd"
+            date="Jan. 25th"
             flag_cur={false || this.state.flag_four}
             flag_prev={this.state.flag_four}
           />
           <TimelineEvent
-            numEvents={5}
+            numEvents={4}
             end={true}
             flag_cur={this.state.flag_four}
           />
