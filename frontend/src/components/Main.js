@@ -94,7 +94,7 @@ class Main extends Component {
   render() {
     return (
       <div className="Main">
-        <div className="container" style={{ marginTop: "24vh" }}>
+        <div className="container" style={{ marginTop: "20vh" }}>
           <div className="main-content row">
             <div className="col-sm-8">
               <div style={{ textAlign: "left" }} className="mb-5">
@@ -126,9 +126,18 @@ class Main extends Component {
               <img src={Planet} className="logo-main" />
             </div>
           </div>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center row">
             <Link to="/register">
-              <button className="main-btn-join"> Join Now </button>
+              <button className="main-btn-join mx-3 mb-3">
+                {" "}
+                Register Now{" "}
+              </button>
+            </Link>
+            <Link to="/guide/voters">
+              <button className="main-btn-join mx-3 mb-3">
+                {" "}
+                Register as Voter{" "}
+              </button>
             </Link>
           </div>
         </div>
@@ -142,113 +151,6 @@ class Main extends Component {
           <div className="timeline-line mb-5">{this.state.renderComponent}</div>
         </div>
       </div>
-      // <div className="Main">
-      //   <div className="main-container">
-      //     <div className="main-content">
-      //       <div className="main-text-div">
-      //         <div className="slogan-div">
-      //           <div className="title-div">Pioneers 2071:</div>
-      //           <div className="subtitle-div">
-      //             Questioning the Next 50 Years
-      //           </div>
-      //         </div>
-      //         <div className="main-welcome-div">
-      //           <a>
-      //             We provide you with a future scenario that describes 3 global
-      //             challenges for the next 50 years:
-      //             <br />
-      //             <br />
-      //             Climate Change, Pandemic, and Artificial Intelligence.
-      //             <br />
-      //             <br />
-      //             Choose a topic, come up with ideology, policies, and
-      //             innovative ideas to resolve the issues, and present your ideas
-      //             to the world!
-      //           </a>
-      //           <br />
-      //           <p>Feb 2th, 2021 - Feb 7th, 2021 (GMT+9)</p>
-      //         </div>
-      //       </div>
-      //       <div className="main-logo-div">
-      //         <img src={Planet} className="logo-main" />
-      //       </div>
-      //     </div>
-      //     <div className="button-div">
-      //       <Link to="/register">
-      //         <button className="main-btn-join"> Join Now </button>
-      //       </Link>
-      //     </div>
-      //   </div>
-      //   <div className="timeline-container">
-      //     <div className="timeline-title">
-      //       <a>
-      //         Timeline
-      //         <br />
-      //       </a>
-      //     </div>
-      //     <div className="timeline-line">
-      //       <Timeline minEvents={5} varient="small" placeholder>
-      //         <TimelineEvent numEvents={5} init={true} />
-      //         <TimelineEvent
-      //           initial={true}
-      //           numEvents={5}
-      //           color="#C4C4C4"
-      //           title="Registration Opens"
-      //           subtitle="Registration for Pioneers 2071 opens"
-      //           // subtitle='Friday, December 18th 2020'
-      //           date="Dec. 14th"
-      //           flag_cur={this.state.flag_one}
-      //           flag_prev={true}
-      //         />
-      //         <TimelineEvent
-      //           numEvents={5}
-      //           color="#C4C4C4"
-      //           title="Registration Closes"
-      //           subtitle="Registration for Pioneers 2071 closes"
-      //           // subtitle='Friday, January 1st 2021'
-      //           date="Jan. 1st"
-      //           flag_cur={this.state.flag_two}
-      //           flag_prev={this.state.flag_one}
-      //         />
-      //         <TimelineEvent
-      //           numEvents={5}
-      //           color="#C4C4C4"
-      //           title="Instructions Sent to Participants"
-      //           subtitle="Notifications, Documents, and Resources sent to Participants"
-      //           // subtitle='Monday, January 4th 2021'
-      //           date="Jan. 4th"
-      //           flag_cur={this.state.flag_three}
-      //           flag_prev={this.state.flag_two}
-      //         />
-      //         <TimelineEvent
-      //           numEvents={5}
-      //           color="#C4C4C4"
-      //           title="Proposal Submission"
-      //           subtitle="Proposal submitted by participants"
-      //           // subtitle='Monday, January 18th 2021'
-      //           date="Jan. 18th"
-      //           flag_cur={this.state.flag_four}
-      //           flag_prev={this.state.flag_three}
-      //         />
-      //         <TimelineEvent
-      //           numEvents={5}
-      //           color="#C4C4C4"
-      //           title="Announcement"
-      //           subtitle="Result of Round 1 Announced"
-      //           // subtitle='Friday, January 22th 2021'
-      //           date="Jan. 22nd"
-      //           flag_cur={false || this.state.flag_four}
-      //           flag_prev={this.state.flag_four}
-      //         />
-      //         <TimelineEvent
-      //           numEvents={5}
-      //           end={true}
-      //           flag_cur={this.state.flag_four}
-      //         />
-      //       </Timeline>
-      //     </div>
-      //   </div>
-      // </div>
     );
   }
 }
