@@ -206,18 +206,19 @@ class Scenario extends Component {
                             technological development has come. Artificial
                             intelligence (AI) has evolved to outperform humans
                             in various fields, and companies and countries with
-                            the best AI technology, including Kaistua, have
-                            created massive amounts of wealth. Gradually, AI has
-                            replaced more and more people’s jobs, and Kaistua
-                            has introduced a universal basic income system that
-                            allows people to live a sufficiently plentiful life
-                            without any additional income. However, many people
-                            crave wealth and still desire to get the remaining
-                            few jobs, which has caused an intensive education
-                            fever in Kaistua. In response to the situation, the
-                            government has introduced a new education policy
-                            called “TITLE” to control the excessive education
-                            fever.
+                            the best AI technology, including the country Aerok,
+                            have created massive amounts of wealth. Gradually,
+                            AI has replaced more and more people’s jobs, and
+                            Aerok has introduced a universal basic income system
+                            that allows people to live a sufficiently plentiful
+                            life without any additional income. However, many
+                            people still crave wealth and desire to take the
+                            remaining few jobs, which has caused an intensive
+                            education fever in Aerok. In response to the
+                            situation, the government has introduced a new
+                            education policy called the “TITLE” (Test of
+                            Intelligence: Technology & Linguistics Examination)
+                            to control the excessive education fever.
                           </p>
                           <p>
                             “TITLE” has successfully selected the optimal number
@@ -232,7 +233,7 @@ class Scenario extends Component {
                             wealth into the AI industry has increased year after
                             year, and this has intensified not only education
                             fever but also the conflict between the privileged
-                            class and the rest of the society. Kaistua is
+                            class and the rest of the society. Aerok is
                             currently facing a complicated, problematic
                             situation wherein both education and careers face
                             substantial problems in the society, requiring

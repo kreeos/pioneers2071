@@ -45,7 +45,8 @@ class Register extends Component {
             <div className="register-text">
               <a>
                 Applicants should form a team consisting of four to eight
-                members to apply for the conference.
+                members to apply for the conference. It is recommended that
+                every participant register for the conference.
                 <br />
                 <br />
                 We will send out notification emails to participants within a
