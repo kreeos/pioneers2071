@@ -13,9 +13,10 @@ import Schedule from './components/Schedule'
 import Secnario from './components/Scenario';
 import Complete from './components/Complete';
 import Committee from './components/Committee';
+import RegisterVote from './components/RegisterVote'
 import RegisterEvent from './components/RegisterEvent'
-import GuideParticipants from './components/GuideParticipants'
 import GuideVoters from './components/GuideVoters'
+import GuideParticipants from './components/GuideParticipants'
 
 class App extends Component {
   constructor(props){
@@ -63,6 +64,7 @@ class App extends Component {
             <Route exact path="/complete" component={Complete}/>
             <Route exact path="/schedule" component={Schedule}/>
             <Route exact path="/register/event" component={RegisterEvent}/>
+            <Route exact path="/register/vote" component={RegisterVote}/>
             <Route exact path="/guide" component={GuideParticipants}/>
             <Route exact path="/guide/participants" component={GuideParticipants}/>
             <Route exact path="/guide/voters" component={GuideVoters}/>

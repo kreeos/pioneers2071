@@ -16,9 +16,11 @@ class List extends Component {
       value: '',
       is_Loaded: false,
       fetching: false,
-      data: null,
+      applicants: [],
       date: "",
-      csv: [],
+      voters: [],
+      Alen: null,
+      Vlen: null,
       isAuthed: false,
     };
 
@@ -52,21 +54,26 @@ class List extends Component {
 
     // wait for two promises
     const info = await Promise.all([
-      axios.get('https://pioneers.kaist.ac.kr:8000/api/register/list'),
-      axios.get('https://pioneers.kaist.ac.kr:8000/api/register/download')
+      axios.get('https://pioneers.kaist.ac.kr:8000/api/register/event/list'),
+      axios.get('https://pioneers.kaist.ac.kr:8000/api/register/vote/list'),
     ]);
 
     // takes out required values and create references to them
-    const data = info[0].data; 
-    const csv = info[1].data; 
+    const votersData = info[1].data; 
+    const applicantsData = info[0].data; 
+    const Vlen = info[1].data.length;
+    const Alen = info[0].data.length;
+    console.log(info)
 
-    console.log(data);
+    // console.log(data);
     this.setState({
       fetching: false, // done!
       is_Loaded: true,
-      data: data,
+      voters: votersData,
       date: date,
-      csv: csv,
+      applicants: applicantsData,
+      Alen: Alen,
+      Vlen: Vlen
     });
   }
   
@@ -89,11 +96,19 @@ class List extends Component {
             </div>
             <div> 
               <CSVLink 
-                data={this.state.csv}
-                filename={"list.csv"}
+                data={this.state.applicants}
+                filename={"applicants.csv"}
                 className="btn-download"
               >
-                Download
+                {this.state.Alen} Applicants
+              </CSVLink>
+
+              <CSVLink 
+                data={this.state.voters}
+                filename={"voters.csv"}
+                className="btn-download"
+              >
+                {this.state.Vlen} Voters
               </CSVLink>
             </div>
           </div>
