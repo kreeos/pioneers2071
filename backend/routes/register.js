@@ -1,9 +1,32 @@
 var express = require('express');
 var router = express.Router();
 const Applicant = require('../models/applicant.js');
+const Voter = require('../models/voter.js');
 const json2csv = require('json2csv').parse;
 const path = require('path')
 const fs = require('fs');
+
+router.post('/vote/post', function(req, res, next) {
+	const app = new Voter({
+		name: req.body.name,
+		birth: req.body.birth,
+		email: req.body.email,
+	});
+
+	console.log(app)
+
+	app.save(function (err, response) {
+		if (err) {
+			console.log("place for error\n");
+			res.err(err);
+		}
+		else {
+			console.log("saved ", response);
+			res.status(200).json(req.body.name);
+		}
+	});
+});
+
 
 router.post('/event/post', function(req, res, next) {
 	const app = new Applicant({
@@ -44,16 +67,7 @@ router.post('/event/post', function(req, res, next) {
 	});
 });
 
-router.get('/list', function(req, res, next) {
-	Applicant.find(function(err, apps){
-		if(err) return res.status(500).send({error: 'database failure'});
-		return res.json(apps);
-	});
-})
-
-
-
-router.get('/download', function(req, res, next) {
+router.get('/event/list', function(req, res, next) {
 	Applicant.find(function (err, apps) {
 		if (err) {
 			console.log("error point 1 :\n", err)
@@ -98,24 +112,34 @@ router.get('/download', function(req, res, next) {
 				console.log("error point 2 : ", err);
 				return res.status(500).json({ err });
 			}
-			// try {
-			// 	csv = json2csv({data: JSON.stringify(list), fields: ["index","email"]});
-			// } catch (err) {
-			// 	console.log("error point 2 :\n", err)
-			// 	return res.status(500).json({ err });
-			// }
-			// const filePath = path.join(__dirname, "../../frontend/", "public", "exports", "list.csv")
-			// fs.writeFile(filePath, csv, function (err) {
-			// 	if (err) {
-			// 		console.log("error point 3 :\n", err)
-			// 		return res.json(err).status(500);
-			// 	}
-			// 	else {
-			// 		console.log("file is written\n");
-			// 	    const fileName = "list.csv";
-			// 		res.status(200).send(fileName);
-			// 	}
-			// });
+		}
+	})
+})
+
+router.get('/vote/list', function(req, res, next) {
+	Voter.find(function (err, apps) {
+		if (err) {
+			console.log("error point 1 :\n", err)
+			return res.status(500).json({ err });
+		}
+		else {
+			let csv;
+			let list = [];
+			for (var i = 0; i < apps.length; i++) {
+				var item = new Object();
+				item.index = i+1;
+				item.name = apps[i].name;
+				item.birthdate = apps[i].birth;
+				item.email = apps[i].email;
+				list.push(item)
+			}
+			console.log(list)
+			try {
+				res.status(200).send(list);
+			} catch (err) {
+				console.log("error point 2 : ", err);
+				return res.status(500).json({ err });
+			}
 		}
 	})
 })
