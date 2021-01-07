@@ -85,7 +85,7 @@ class RegisterEvent extends Component {
     let cond = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     let emailValidity = cond.test(this.state.email);
 
-    let sizeValidity = this.state.size < 8 && this.state.size > 3;
+    let sizeValidity = this.state.size < 9 && this.state.size > 3;
 
     if (NotFilled) {
       alert("Please check if you filled all the necessary fields.");
