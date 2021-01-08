@@ -45,8 +45,11 @@ class Register extends Component {
             <div className="register-text">
               <a>
                 Applicants should form a team consisting of four to eight
-                members to apply for the conference. It is recommended that
-                every participant register for the conference.
+                members to apply for the conference. To confirm registration,
+                every member of the team must complete registration. We will
+                send you the full version of your scenario and other documents
+                that you will need in preparation for the conference once your
+                team's registration is completed and confirmed.
                 <br />
                 <br />
                 We will send out notification emails to participants within a
