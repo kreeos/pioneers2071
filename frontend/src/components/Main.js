@@ -107,8 +107,8 @@ class Main extends Component {
               </div>
               <div style={{ textAlign: "left" }} className="body-text">
                 <div>
-                  We provide you with a future scenario that describes 3 global
-                  challenges for the next 50 years:
+                  We provide you with future scenarios that describe the 3
+                  global challenges for the next 50 years:
                   <br />
                   <br />
                   Climate Change, Pandemic, and Artificial Intelligence.

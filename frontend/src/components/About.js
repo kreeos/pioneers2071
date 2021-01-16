@@ -72,9 +72,9 @@ class About extends Component {
                   rationality of the results derived from other teams.
                   <br />
                   <br />
-                  Anyone can participate in the voting process. Please read the
-                  guide for voters, register, and get a code. Once you are given
-                  a code via email, which you can insert
+                  Anyone, including non-participants, can register as a voter
+                  online. Once you are given a code via email, which you can
+                  insert
                   <a className="link-in-text" href="/register/vote">
                     here
                   </a>
@@ -83,10 +83,10 @@ class About extends Component {
                   <br />
                   <br />
                   Teams to advance to the final are selected based on the
-                  results of public voting and peer evaluation according to a
-                  7:3 ratio. Voters receive different points based on the status
-                  of the team that they support being advanced to the final or
-                  receiving a reward.
+                  results of public voting and the evaluation of other
+                  participants and judges. Voters receive different points based
+                  on the status of the team that they support being advanced to
+                  the final or receiving a reward.
                 </a>
               </div>
             </div>

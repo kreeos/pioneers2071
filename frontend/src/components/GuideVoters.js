@@ -26,11 +26,10 @@ class GuideVoters extends Component {
             </div>
             <div className="guide-text">
               <a>
-                Anyone can participate in the voting process. Voters can enter
-                the voting page during the conference. Once you are given a code
-                via email, you can insert it to proceed with voting. You can
-                vote for one of the three teams participating in the ongoing
-                debate.
+                Anyone, including non-participants, can register as a voter
+                online. Voters can enter the voting page during the conference.
+                Once you are given a code via email, you can insert it to
+                proceed with voting.
                 <br />
               </a>
             </div>
@@ -46,14 +45,8 @@ class GuideVoters extends Component {
             <div className="guide-text">
               <a>
                 Teams to advance to the final are selected based on the results
-                of public voting and peer evaluation according to a 7:3 ratio.
-                Voters receive different points according to the status of the
-                team that they support being advanced to the final or receiving
-                a reward. Voters can cast only one vote per debate. As 12
-                debates are performed over six days, voters can vote a maximum
-                of 12 times. Voting can be performed until the corresponding
-                debate is over. Voters who gain the highest points at the time
-                of the award ceremony receive gifts.
+                of public voting and the evaluation of other participants and
+                judges.
               </a>
             </div>
           </div>

@@ -21,8 +21,8 @@ class GuideParticipants extends Component {
             <p className="guide-text-participants">
               Human beings have encountered a significantly critical situation
               that might threaten their existence. To overcome such a crisis,
-              competent policymakers and innovators have formed teams to develop
-              various policies and products.
+              develop policies and innovative ideas as competent policymakers
+              and innovators.
             </p>
           </div>
           <div className="guide-container">
@@ -88,13 +88,11 @@ class GuideParticipants extends Component {
                 promote the collections of policies and products of each team
                 and verify and improve the validity and rationality of the
                 results derived from other teams. The master of ceremonies (MC)
-                conducts the debates, and three teams join each session’s
-                debate. Each team selects two free debaters to participate in
-                the debate, and other members can also participate and express
-                their opinions in the debate after the MC grants them the right
-                to speak. Teams to advance to the final are selected based on
-                the results of public voting and peer evaluation according to a
-                7:3 ratio.
+                conducts the debates, and 2-4 teams that have chosen the same
+                topic compete in the same session’s debate. Each team selects
+                two free debaters to participate in the debate, and other
+                members can also participate and express their opinions in the
+                debate after the MC grants them the right to speak.
               </a>
             </div>
           </div>

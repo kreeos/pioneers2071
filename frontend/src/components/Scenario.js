@@ -43,17 +43,17 @@ class Scenario extends Component {
                       <div className="custom-modal-content">
                         <div className="custom-modal-text">
                           <p>
-                            A country called KAISTia gained independence just
+                            A country called Grainland gained independence just
                             after a global war ended, and struggled with extreme
                             poverty. Over time, other countries repaired
                             themselves from the scars of the war and boosted
                             development through the massive operation of
                             factories that constantly emit smoke. In contrast,
-                            the people of KAISTia have barely made ends meet by
-                            farming and breeding livestock in difficult
+                            the people of Grainland have barely made ends meet
+                            by farming and breeding livestock in difficult
                             conditions without electrical facilities and
                             waterworks. While other countries have achieved a
-                            high level of national growth, KAISTia just began
+                            high level of national growth, Grainland just began
                             stepping forward with national development.
                           </p>
                           <p>
@@ -62,29 +62,29 @@ class Scenario extends Component {
                             elevated the temperature of the Earth and worsened
                             the air quality, which is causing the plants to
                             wither. Countries around the world are only now
-                            aware of the crisis. However, KAISTia has become a
+                            aware of the crisis. However, Grainland has become a
                             developing country with a rapid growth rate. The
                             smoke that is being emitted from factories in this
                             country is constantly mixing with the murky air and
                             covering the world. International treaties have been
                             drawn up to prevent smoke from being generated, and
                             other countries are expressing their discontent over
-                            KAISTia.
+                            Grainland.
                           </p>
                           <p>
-                            KAISTia was slow in entering the race of national
+                            Grainland was slow in entering the race of national
                             growth. It can now actively operate industries, but
                             this process is causing air pollutant emissions.
                             Other countries accomplished considerable
                             development through large-scale operation of
-                            factories in the past, whereas KAISTia is only now
-                            engaging in national development. Although KAISTia
+                            factories in the past, whereas Grainland is only now
+                            engaging in national development. Although Grainland
                             can advance itself at present, issues with its
                             economic development are colliding with global
                             environmental issues. Besides, developed countries
                             are trying to apply universal conditions to the
-                            small country of KAISTia in terms of environmental
-                            issues. People in KAISTia are also suffering from
+                            small country of Grainland in terms of environmental
+                            issues. People in Grainland are also suffering from
                             the air that is full of smoke, and this country has
                             met with difficulty in making its decisions.
                           </p>
@@ -117,12 +117,12 @@ class Scenario extends Component {
                         The World With the Invisible Threat
                       </div>
                       <div className="custom-modal-subtitle">
-                        The Next Outbreak: PandemicPlanet
+                        The Next Outbreak: Pandemic
                       </div>
                       <div className="custom-modal-content">
                         <div className="custom-modal-text">
                           <p>
-                            A new infectious disease breaks out in 2030.
+                            A new infectious disease breaks out in 2031.
                             Scientists estimate that this disease is a type of
                             coronavirus that has not been observed on the Earth
                             for hundreds of years. In particular, the
@@ -136,7 +136,7 @@ class Scenario extends Component {
                             can be transmitted from person to person through
                             both respiratory droplets and aerosols in the air.
                             The spread of this disease finally reaches a city
-                            named “KAISity”, in which many people reside.
+                            named “Mountwest”, in which many people reside.
                             Although a case of a group infection has not yet
                             been observed, confirmed cases of the virus have
                             been intermittently reported. The government is
@@ -145,27 +145,27 @@ class Scenario extends Component {
                             to the high contagiousness of the disease.
                           </p>
                           <p>
-                            People living in KAISity are extremely scared about
-                            the outbreak of the new infectious disease. This
-                            city had seen the outbreak of another infectious
-                            disease in the past. The disease infection cycle has
-                            shortened over time, and a new type of disease has
-                            developed in 2030. People have become exhausted by
-                            repeated infectious diseases. People are
-                            experiencing a high level of fatigue and depression
-                            due to social distancing. The spread of an
-                            infectious disease might threaten the lives of some
-                            people and significantly shrink economic activities.
-                            Consequently, some people could have difficulties
-                            due to reduced incomes, while others could be at
-                            risk of losing their jobs. This is not a simple
-                            problem of getting infected or not.
+                            People living in Mountwest are extremely scared
+                            about the outbreak of the new infectious disease.
+                            This city had seen the outbreak of another
+                            infectious disease in the past. The disease
+                            infection cycle has shortened over time, and a new
+                            type of disease has developed in 2031. People have
+                            become exhausted by repeated infectious diseases.
+                            People are experiencing a high level of fatigue and
+                            depression due to social distancing. The spread of
+                            an infectious disease might threaten the lives of
+                            some people and significantly shrink economic
+                            activities. Consequently, some people could have
+                            difficulties due to reduced incomes, while others
+                            could be at risk of losing their jobs. This is not a
+                            simple problem of getting infected or not.
                           </p>
                           <p>
                             As described above, an infectious disease is one of
                             the greatest threats latent in a modern society that
                             includes numerous people. What measures can enable
-                            people in KAISity to maintain decent human lives
+                            people in Mountwest to maintain decent human lives
                             despite the danger of infectious disease?
                           </p>
                         </div>
