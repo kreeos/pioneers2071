@@ -1,10 +1,8 @@
 import "./Main.css";
 import React, { Component } from "react";
-import Popup from "reactjs-popup";
+import Footer from "./common/Footer";
 import "reactjs-popup/dist/index.css";
-import Logo from "../images/logo-main.png";
 import Planet from "../images/Main.png";
-import axios from "axios";
 import Timeline from "./Timeline";
 import TimelineEvent from "./TimelineEvent";
 import { Link } from "react-router-dom";
@@ -119,7 +117,7 @@ class Main extends Component {
                   to the world!
                 </div>
                 <br />
-                <p>Feb 2th, 2021 - Feb 7th, 2021 (GMT+9)</p>
+                <p>Feb 2nd, 2021 - Feb 7th, 2021 (GMT+9)</p>
               </div>
             </div>
             <div className="col-sm-4">
@@ -146,6 +144,7 @@ class Main extends Component {
           </div>
           <div className="timeline-line mb-5">{this.state.renderComponent}</div>
         </div>
+        <Footer />
       </div>
     );
   }
