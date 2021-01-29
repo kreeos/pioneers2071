@@ -96,17 +96,18 @@ class About extends Component {
               </div>
               <div className="about-text">
                 <a>
-                  The winners of each division are given the following awards:
+                  Once a team wins in their division, the board of judges will
+                  select one best team to receive the Grand Award. The other
+                  division winners receive the Gold Award.
                   <br />
-                  Grand Award (Top 1 team): $3000
+                  Grand Award (Top 1 team in total): $3000
                   <br />
-                  Gold (2 teams): $2000
-                  <br />
-                  <br />
+                  Gold Award (2 teams in total): $2000
+                  <br /> <br />
                   The second-place winners of each division are given the silver
-                  award:
+                  award.
                   <br />
-                  Silver (3 teams): $1000
+                  Silver (2 teams): $1000
                 </a>
               </div>
             </div>

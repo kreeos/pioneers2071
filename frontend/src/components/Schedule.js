@@ -32,10 +32,6 @@ class Schedule extends Component {
               </div>
               <div className="schedule-text">
                 <img className="schedule-calendar mb-3" src={Daily} />
-                <a>
-                  * The number of debates is subject to change depending on the
-                  number of applicants.
-                </a>
               </div>
             </div>
             <div className="schedule-container">
