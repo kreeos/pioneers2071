@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import Logos from "../../images/logos.png";
+// import Logos from "../../images/logos.png";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import DraftsIcon from "@material-ui/icons/Drafts";
 
@@ -32,13 +32,13 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className="d-flex flex-row-reverse align-items-center col-4">
+            {/* <div className="d-flex flex-row-reverse align-items-center col-4">
               <div className="p-2 w-50">
                 <a href="https://kaist.ac.kr" style={{ color: "white" }}>
                   <img className="w-100" src={Logos} />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
