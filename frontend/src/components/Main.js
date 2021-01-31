@@ -117,7 +117,7 @@ class Main extends Component {
                   to the world!
                 </div>
                 <br />
-                <p>Feb 2nd, 2021 - Feb 7th, 2021 (GMT+9)</p>
+                <p>Feb 3th, 2021 - Feb 7th, 2021 (GMT+9)</p>
               </div>
             </div>
             <div className="col-sm-4">
@@ -125,9 +125,9 @@ class Main extends Component {
             </div>
           </div>
           <div class="d-flex justify-content-center row">
-            <Link to="/register">
+            {/* <Link to="/register">
               <button className="main-btn-join mx-3 mb-3">Register Now</button>
-            </Link>
+            </Link> */}
             <Link to="/guide/voters">
               <button className="main-btn-join mx-3 mb-3">
                 Register as Voter
