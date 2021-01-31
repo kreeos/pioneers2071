@@ -5,3 +5,11 @@
   font-family: Mulish;
   font-size: 1rem;
 }
+
+.dropdown-menu {
+  background-color: transparent !important;
+}
+
+.dropdown-item {
+  color: white !important;
+}
