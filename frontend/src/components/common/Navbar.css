@@ -6,10 +6,17 @@
   font-size: 1rem;
 }
 
-.dropdown-menu {
-  background-color: transparent !important;
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #e4a86f;
 }
 
-.dropdown-item {
-  color: white !important;
+@media (max-width: 767px) {
+  .dropdown-menu {
+    background-color: transparent !important;
+  }
+
+  .dropdown-item {
+    color: white !important;
+  }
 }
