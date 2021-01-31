@@ -76,10 +76,7 @@ class NavBar extends Component {
             </Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse
-            id="basic-navbar-nav"
-            className="d-flex justify-content-between"
-          >
+          <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto Navbar-custom">
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/about">Pioneer 2071</NavDropdown.Item>
