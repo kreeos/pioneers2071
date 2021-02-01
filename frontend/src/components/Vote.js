@@ -12,7 +12,7 @@ class Vote extends Component {
       <div className="Vote">
         <div className="container mb-5">
           <div className="vote-title-div">
-            <a>Semi-Final Vote</a>
+            <a>Semi-Final Round Voting</a>
           </div>
           <div className="vote-main-div">
             <div className="vote-cards-container">
@@ -31,7 +31,7 @@ class Vote extends Component {
                 <div className="vote-card-title">
                   The World of an <br /> "Intelligent" Mind
                 </div>
-                <Link to="/vote/semi/ai">
+                <Link to="/vote/semi/eea">
                   <button className="vote-btn-join mb-3">Vote</button>
                 </Link>
               </Card>

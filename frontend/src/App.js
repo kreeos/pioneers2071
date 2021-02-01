@@ -18,7 +18,8 @@ import RegisterEvent from "./components/RegisterEvent";
 import GuideVoters from "./components/GuideVoters";
 import GuideParticipants from "./components/GuideParticipants";
 import Vote from "./components/Vote";
-import VoteEnvSemi from "./components/VoteEnvSemi";
+import VoteSemiEea from "./components/VoteSemiEea";
+import VoteSemiEnv from "./components/VoteSemiEnv";
 
 class App extends Component {
   constructor(props) {
@@ -78,7 +79,9 @@ class App extends Component {
             />
             <Route exact path="/guide/voters" component={GuideVoters} />
             <Route exact path="/vote" component={Vote} />
-            <Route exact path="/vote/semi/env" component={VoteEnvSemi} />
+            <Route exact path="/vote/semi/env" component={VoteSemiEnv} />
+            <Route exact path="/vote/semi/eea" component={VoteSemiEea} />
+            <Redirect from="/vote" to="/vote" />
             <Redirect from="/" to="/" />
           </Switch>
         </BrowserRouter>
