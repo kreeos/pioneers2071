@@ -23,12 +23,24 @@
   font-family: Merriweather;
 }
 
+@media (max-width: 767px) {
+  .vote-title-div {
+    font-size: 2.1rem;
+  }
+}
+
 .vote-main-div {
   font-size: 1.3rem;
   margin-bottom: 10vh;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .vote-main-div {
+    font-size: 1.2rem;
+  }
 }
 
 .vote-btn-join {
