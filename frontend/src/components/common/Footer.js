@@ -10,8 +10,7 @@ class Footer extends Component {
       <div className="footer-container">
         <div className="container">
           <div className="row">
-            <div className="madeby col-4"></div>
-            <div className="col-4">
+            <div className="col">
               {/* <div className="w-100 text-center mb-3">Contact Us</div> */}
               <div className="d-flex justify-content-center">
                 <div class="icon-outline">
@@ -32,13 +31,6 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-            {/* <div className="d-flex flex-row-reverse align-items-center col-4">
-              <div className="p-2 w-50">
-                <a href="https://kaist.ac.kr" style={{ color: "white" }}>
-                  <img className="w-100" src={Logos} />
-                </a>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
