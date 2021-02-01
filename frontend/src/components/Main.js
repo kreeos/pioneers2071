@@ -125,8 +125,8 @@ class Main extends Component {
             </div>
           </div>
           <div class="d-flex justify-content-center row">
-            {/* <Link to="/register">
-              <button className="main-btn-join mx-3 mb-3">Register Now</button>
+            {/* <Link to="/vote">
+              <button className="main-btn-join mx-3 mb-3">Vote Now</button>
             </Link> */}
             <Link to="/guide/voters">
               <button className="main-btn-join mx-3 mb-3">
