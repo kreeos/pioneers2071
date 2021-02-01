@@ -94,7 +94,7 @@ class NavBar extends Component {
                   Guide for Voters
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/register">Registration</Nav.Link>
+              <Nav.Link href="/register/vote">Registration</Nav.Link>
             </Nav>
             <a href="https://kaist.ac.kr" style={{ color: "white" }}>
               <img link="/" style={{ maxHeight: 40 }} src={Logo50} />
