@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 // import NavBaritem from "./NavBaritem";
 import Logo from "../../images/logo-menu.png";
-// import { NavLink } from "react-router-dom";
+import Logo50 from "../../images/logos.png";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 import { connect } from "react-redux";
@@ -71,7 +72,7 @@ class NavBar extends Component {
         <div className="container">
           <Navbar.Brand href="/main">
             <Nav.Link href="/main">
-              <img link="/" style={{ maxWidth: 200 }} src={Logo} />
+              <img link="/" style={{ maxHeight: 50 }} src={Logo} />
             </Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -95,6 +96,9 @@ class NavBar extends Component {
               </NavDropdown>
               <Nav.Link href="/register">Registration</Nav.Link>
             </Nav>
+            <a href="https://kaist.ac.kr" style={{ color: "white" }}>
+              <img link="/" style={{ maxHeight: 40 }} src={Logo50} />
+            </a>
           </Navbar.Collapse>
         </div>
       </Navbar>

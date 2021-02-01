@@ -20,8 +20,10 @@ class Schedule extends Component {
               <div className="schedule-category">
                 <a>Calendar</a>
               </div>
-              <div className="schedule-text">
-                <img className="schedule-calendar" src={Calendar} />
+              <div className="schedule-text d-flex justify-content-center">
+                <div style={{ width: "90%" }}>
+                  <img className="schedule-calendar w-100" src={Calendar} />
+                </div>
               </div>
             </div>
             <div className="schedule-container">
@@ -30,10 +32,6 @@ class Schedule extends Component {
               </div>
               <div className="schedule-text">
                 <img className="schedule-calendar mb-3" src={Daily} />
-                <a>
-                  * The number of debates is subject to change depending on the
-                  number of applicants.
-                </a>
               </div>
             </div>
             <div className="schedule-container">

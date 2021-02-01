@@ -1,54 +1,49 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "./Footer.css";
+// import Logos from "../../images/logos.png";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import DraftsIcon from "@material-ui/icons/Drafts";
 
 class Footer extends Component {
-	render() {
-		const { is_mobile } = this.props;
-		return(
-            <div>
-            {
-                is_mobile ?
-					<div className='mobile-footer'>Radiation Materials and Nanomechanics Lab. <br/> Department of Nuclear and Quantum Engineering <br/> Korea Advanced Institute of Science and Technology <br/>
-<br/>N7-1, Rm 2404, KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon, 305-701, South Korea <br/> Tel. +82)42-350-3813 | Fax. +82)42-350-3810
-					    <div className="m-container">
-					    	<img style={{ padding: 15, width: '100%', height: '100%'}} src={require('../static/images/footer/footer_mobile.png')}/>
-							<button 
-						  		className="m-btn-kaist"
-							    onClick={(e) => {
-							      e.preventDefault();
-							      window.location.href='http://kaist.ac.kr';
-							      }}
-						  	></button>
-						  	<button 
-						  		className="m-btn-nqe"
-							    onClick={(e) => {
-							      e.preventDefault();
-							      window.location.href='http://nuclear.kaist.ac.kr';
-							      }}
-						  	></button>
-						</div>
-					</div>
-				:
-				  <div className="container">
-					<img style={{width: '100%', height:'100%'}} src={require('../static/images/footer/footer.png')}/>
-				  	<button 
-				  		className="btn-kaist"
-					    onClick={(e) => {
-					      e.preventDefault();
-					      window.location.href='http://kaist.ac.kr';
-					      }}
-				  	></button>
-				  	<button 
-				  		className="btn-nqe"
-					    onClick={(e) => {
-					      e.preventDefault();
-					      window.location.href='http://nuclear.kaist.ac.kr';
-					      }}
-				  	></button>
-				  </div>
-            }
+  render() {
+    return (
+      <div className="footer-container">
+        <div className="container">
+          <div className="row">
+            <div className="madeby col-4"></div>
+            <div className="col-4">
+              {/* <div className="w-100 text-center mb-3">Contact Us</div> */}
+              <div className="d-flex justify-content-center">
+                <div class="icon-outline">
+                  <a
+                    href="https://www.instagram.com/pioneers.2071/"
+                    style={{ color: "white" }}
+                  >
+                    <InstagramIcon className="link-icon" />
+                  </a>
+                </div>
+                <div class="icon-outline">
+                  <a
+                    href={`mailto:${"kaistua@gmail.com"}`}
+                    style={{ color: "white" }}
+                  >
+                    <DraftsIcon className="link-icon" />
+                  </a>
+                </div>
+              </div>
             </div>
-		);
-	}
+            {/* <div className="d-flex flex-row-reverse align-items-center col-4">
+              <div className="p-2 w-50">
+                <a href="https://kaist.ac.kr" style={{ color: "white" }}>
+                  <img className="w-100" src={Logos} />
+                </a>
+              </div>
+            </div> */}
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Footer;
