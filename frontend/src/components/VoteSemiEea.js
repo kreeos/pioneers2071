@@ -1,5 +1,6 @@
 import "./VotePage.css";
 import React, { Component } from "react";
+import LaunchIcon from "@material-ui/icons/Launch";
 
 class Vote extends Component {
   constructor(props) {
@@ -38,6 +39,9 @@ class Vote extends Component {
                 highlight videos of debates.
               </a>
             </div>
+            <div className="w-100 d-flex justify-content-center guide-para mb-3">
+              Click the button below for more information!
+            </div>
             <div className="w-100 d-flex justify-content-center">
               <a
                 target="_blank"
@@ -45,7 +49,7 @@ class Vote extends Component {
                 href="https://drive.google.com/drive/folders/1uLXquQb3gevRf1B5kcW5ZV1394cfdgHq"
               >
                 <button className="vote-btn-long mx-3 mb-3">
-                  Find your favorite teams!
+                  Find your favorite teams! <LaunchIcon className="ml-1 mb-1" />
                 </button>
               </a>
             </div>
