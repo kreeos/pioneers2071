@@ -1,6 +1,5 @@
 import "./Main.css";
 import React, { Component } from "react";
-import Footer from "./common/Footer";
 import "reactjs-popup/dist/index.css";
 import Planet from "../images/Main.png";
 import Timeline from "./Timeline";
@@ -117,7 +116,7 @@ class Main extends Component {
                   to the world!
                 </div>
                 <br />
-                <p>Feb 3th, 2021 - Feb 7th, 2021 (GMT+9)</p>
+                <p>Feb 3rd, 2021 - Feb 7th, 2021 (GMT+9)</p>
               </div>
             </div>
             <div className="col-sm-4">
@@ -125,9 +124,9 @@ class Main extends Component {
             </div>
           </div>
           <div class="d-flex justify-content-center row">
-            {/* <Link to="/vote">
+            <Link to="/vote">
               <button className="main-btn-join mx-3 mb-3">Vote Now</button>
-            </Link> */}
+            </Link>
             <Link to="/guide/voters">
               <button className="main-btn-join mx-3 mb-3">
                 Register as Voter
@@ -144,7 +143,6 @@ class Main extends Component {
           </div>
           <div className="timeline-line mb-5">{this.state.renderComponent}</div>
         </div>
-        <Footer />
       </div>
     );
   }

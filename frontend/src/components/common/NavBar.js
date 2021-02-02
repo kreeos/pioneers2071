@@ -80,6 +80,7 @@ class NavBar extends Component {
             <Nav className="mr-auto Navbar-custom">
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/about">Pioneer 2071</NavDropdown.Item>
+                <NavDropdown.Item href="/team">Team</NavDropdown.Item>
                 <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Conference" id="basic-nav-dropdown">
