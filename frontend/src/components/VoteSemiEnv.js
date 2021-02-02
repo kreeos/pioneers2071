@@ -35,12 +35,23 @@ class Vote extends Component {
                 Please vote based on the teams' written solutions, posters, and
                 highlight videos of debates.
               </a>
-              <div class="w-100">
-                <div class="arrow">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
+            </div>
+            <div className="w-100 d-flex justify-content-center">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/drive/folders/1IveGw-_E26-ocvnIJuHaTCWNVFdBRo_B"
+              >
+                <button className="vote-btn-long mx-3 mb-3">
+                  Find your favorite teams!
+                </button>
+              </a>
+            </div>
+            <div class="w-100">
+              <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
               </div>
             </div>
           </div>
