@@ -3,7 +3,7 @@
   border-radius: 5px;
   color: white;
   padding: 0px;
-  height: 220px;
+  /* height: 220px; */
   width: 250px;
   box-shadow: 0 3px 5px 2px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -33,6 +33,7 @@
 }
 .name {
   margin-top: -60px;
+  margin-bottom: 0.5rem;
   font-family: Mulish;
   font-size: 1.5rem;
   font-weight: bold;
@@ -42,4 +43,8 @@
   font-size: 1rem;
   font-family: Mulish;
   color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  line-height: 110%;
 }

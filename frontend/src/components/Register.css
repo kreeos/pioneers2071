@@ -76,6 +76,15 @@
   text-align: left;
 }
 
+@media (max-width: 767px) {
+  .register-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+}
+
 .register-category {
   margin-right: 5vw;
   margin-top: 10px;
@@ -88,6 +97,14 @@
   font-family: Mulish;
   font-style: normal;
   font-size: 1.2rem;
+}
+
+@media (max-width: 767px) {
+  .register-category {
+    margin-right: 3vw;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+  }
 }
 
 .register-category:before {
@@ -109,6 +126,19 @@
   line-height: 30px;
 }
 
+@media (max-width: 767px) {
+  .register-text {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: auto;
+    width: 100%;
+    font-size: 18px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+
 .register-form {
   display: flex;
   flex-direction: column;
@@ -117,7 +147,7 @@
 }
 
 .register-input-full[type="text"] {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .register-input-full {
@@ -133,15 +163,15 @@
 
 .register-input-full::placeholder {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .register-input-half[type="text"] {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .register-input-half[type="select"] {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .register-input-half {
@@ -157,11 +187,11 @@
 
 .register-input-half::placeholder {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .register-input-half-right[type="text"] {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .register-input-half-right {
@@ -178,7 +208,7 @@
 
 .register-input-half-right::placeholder {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .hidden-div {
@@ -200,6 +230,12 @@
 
 .information-section-container {
   width: 50vw;
+}
+
+@media (max-width: 767px) {
+  .information-section-container {
+    width: 100%;
+  }
 }
 
 .input-container {
@@ -224,28 +260,6 @@
   border-bottom: 1px solid white;
 }
 
-.register-category {
-  margin-right: 2vw;
-  margin-top: 10px;
-  margin-bottom: auto;
-  position: relative;
-  font-size: 24px;
-  padding-top: 10px;
-  width: 10vw;
-  font-weight: bold;
-  font-family: Mulish;
-  font-style: normal;
-  font-size: 1.2rem;
-}
-
-.register-category:before {
-  top: 0;
-  content: "";
-  position: absolute;
-  width: 50px; /* or 100px */
-  border-top: 5px solid white;
-}
-
 .vote-container {
   margin-left: auto;
   margin-right: auto;
@@ -259,9 +273,32 @@
   padding-bottom: 10vh;
 }
 
+@media (max-width: 767px) {
+  .vote-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-right: 0;
+  }
+}
+
 .vote-input-container {
   margin-bottom: 20px;
   font-family: Mulish;
   font-size: 1.2rem;
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .vote-input-container {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: auto;
+    width: 100%;
+    font-size: 18px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+  }
 }
