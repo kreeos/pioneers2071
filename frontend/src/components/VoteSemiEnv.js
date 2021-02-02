@@ -18,6 +18,8 @@ class Vote extends Component {
     script.defer = true;
 
     document.body.appendChild(script);
+
+    window.scrollTo(0, 0);
   }
 
   render() {
