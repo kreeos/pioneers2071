@@ -116,7 +116,7 @@ class Main extends Component {
                   to the world!
                 </div>
                 <br />
-                <p>Feb 3th, 2021 - Feb 7th, 2021 (GMT+9)</p>
+                <p>Feb 3rd, 2021 - Feb 7th, 2021 (GMT+9)</p>
               </div>
             </div>
             <div className="col-sm-4">
