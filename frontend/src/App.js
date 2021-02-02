@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import HeaderContainer from "./components/HeaderContainer";
+import Footer from "./components/common/Footer";
+
 import Main from "./components/Main";
 import List from "./components/List";
 import About from "./components/About";
@@ -17,6 +19,7 @@ import RegisterVote from "./components/RegisterVote";
 import RegisterEvent from "./components/RegisterEvent";
 import GuideVoters from "./components/GuideVoters";
 import GuideParticipants from "./components/GuideParticipants";
+import Team from "./components/Team";
 import Vote from "./components/Vote";
 import VoteSemiEea from "./components/VoteSemiEea";
 import VoteSemiEnv from "./components/VoteSemiEnv";
@@ -77,6 +80,7 @@ class App extends Component {
               path="/guide/participants"
               component={GuideParticipants}
             />
+            <Route exact path="/team" component={Team} />
             <Route exact path="/guide/voters" component={GuideVoters} />
             <Route exact path="/vote" component={Vote} />
             <Route exact path="/vote/semi/env" component={VoteSemiEnv} />
@@ -84,6 +88,7 @@ class App extends Component {
             <Redirect from="/vote" to="/vote" />
             <Redirect from="/" to="/" />
           </Switch>
+          <Footer />
         </BrowserRouter>
       </div>
     );

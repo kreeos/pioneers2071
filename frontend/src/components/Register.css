@@ -3,56 +3,66 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
 .Register {
   background: no-repeat top/100% url(../images/star.png);
   background-color: #000525;
   width: 100vw;
   height: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: Mulish;
 }
-
 
 .register-title-div {
   font-size: 3rem;
   margin-bottom: 10vh;
   margin-top: 25vh;
+  font-family: "Merriweather", serif;
 }
 
-.btn-join{
-  display:inline-block;
-  margin:0 0.3em 0.3em 0;
-  text-decoration:none;
-  font-weight:300;
+.register-main-div {
+  font-size: 1.4rem;
+  margin-bottom: 5vh;
+  align-items: center;
+  /* width: 35vw; */
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+}
+
+.btn-join {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  text-decoration: none;
+  font-weight: 300;
   font-size: 1.3rem;
-  text-align:center;
+  text-align: center;
   transition: all 0.2s;
   /*font-size: 1.5rem;*/
-  background: #FFFFFF;
+  background: #ffffff;
   /* Main Color */
-  border: 1px solid #2A36A2;
+  border: 1px solid #2a36a2;
   box-sizing: border-box;
   box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
   border-radius: 50px;
-  color: #2A36A1;
+  color: #2a36a1;
 }
 
-.btn-join:hover{
-  color:#FFFFFF;
-  background-color:#2A36A1;
+.btn-join:hover {
+  color: #ffffff;
+  background-color: #2a36a1;
 }
 
 .btn-container {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-
 
 .register-container {
   margin-bottom: 5vh;
@@ -82,9 +92,9 @@
 
 .register-category:before {
   top: 0;
-  content : "";
+  content: "";
   position: absolute;
-  width   : 50px;  /* or 100px */
+  width: 50px; /* or 100px */
   border-top: 5px solid white;
 }
 .register-text {
@@ -106,15 +116,14 @@
   align-items: center;
 }
 
-.register-input-full[type="text"]
-{
-    font-size: 1.1rem;
+.register-input-full[type="text"] {
+  font-size: 1.1rem;
 }
 
 .register-input-full {
   background: rgba(255, 255, 255, 0.5);
   /* Main Color */
-  border: 1px solid #2A36A2;
+  border: 1px solid #2a36a2;
   box-sizing: border-box;
   border-radius: 6px;
   width: 100%;
@@ -127,20 +136,18 @@
   font-size: 1.1rem;
 }
 
-.register-input-half[type="text"]
-{
-    font-size: 1.1rem;
+.register-input-half[type="text"] {
+  font-size: 1.1rem;
 }
 
-.register-input-half[type="select"]
-{
-    font-size: 1.1rem;
+.register-input-half[type="select"] {
+  font-size: 1.1rem;
 }
 
 .register-input-half {
   background: rgba(255, 255, 255, 0.5);
   /* Main Color */
-  border: 1px solid #2A36A2;
+  border: 1px solid #2a36a2;
   box-sizing: border-box;
   border-radius: 6px;
   width: 92%;
@@ -153,15 +160,14 @@
   font-size: 1.1rem;
 }
 
-.register-input-half-right[type="text"]
-{
-    font-size: 1.1rem;
+.register-input-half-right[type="text"] {
+  font-size: 1.1rem;
 }
 
 .register-input-half-right {
   background: rgba(255, 255, 255, 0.5);
   /* Main Color */
-  border: 1px solid #2A36A2;
+  border: 1px solid #2a36a2;
   box-sizing: border-box;
   border-radius: 6px;
   width: 92%;
@@ -234,9 +240,9 @@
 
 .register-category:before {
   top: 0;
-  content : "";
+  content: "";
   position: absolute;
-  width   : 50px;  /* or 100px */
+  width: 50px; /* or 100px */
   border-top: 5px solid white;
 }
 
@@ -252,7 +258,6 @@
   width: 100%;
   padding-bottom: 10vh;
 }
-
 
 .vote-input-container {
   margin-bottom: 20px;

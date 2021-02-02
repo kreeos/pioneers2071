@@ -12,7 +12,7 @@ class Footer extends Component {
           <div className="row">
             <div className="col">
               {/* <div className="w-100 text-center mb-3">Contact Us</div> */}
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center mb-3">
                 <div class="icon-outline">
                   <a
                     href="https://www.instagram.com/pioneers.2071/"
@@ -29,6 +29,9 @@ class Footer extends Component {
                     <DraftsIcon className="link-icon" />
                   </a>
                 </div>
+              </div>
+              <div className="d-flex justify-content-center copyright">
+                © 2021 KAIST Pioneers 2071 student committee
               </div>
             </div>
           </div>
