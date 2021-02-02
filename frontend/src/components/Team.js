@@ -32,84 +32,84 @@ class Team extends Component {
                 <ProfileUi
                   imgUrl={Kyungbin}
                   name="Kyungbin Koh"
-                  designation="Member of the student committee"
+                  designation="Head of the Committee"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Chaeyoun}
                   name="Chaeyoun Kim"
-                  designation="Member of the student committee"
+                  designation="Scenario Team<br/>Multimedia Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Seonghwan}
                   name="Seonghwan Seo"
-                  designation="Member of the student committee"
+                  designation="Executive Secretary"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Subin}
                   name="Subeen Lee"
-                  designation="Member of the student committee"
+                  designation="Planning Team<br/>Design Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Yoonho}
                   name="Yoonho Lee"
-                  designation="Member of the student committee"
+                  designation="Scenario Team<br/>Multimedia Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Jaewook}
                   name="Jaewook Lee"
-                  designation="Member of the student committee"
+                  designation="Scenario Team<br/>Debate Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Mingyu}
                   name="Mingyu Jo"
-                  designation="Member of the student committee"
+                  designation="Leader of the<br/>General Affairs"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Hojung}
                   name="Hojung Cho"
-                  designation="Member of the student committee"
+                  designation="Leader of the<br/>Multimedia Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Daeun}
                   name="DaEun Choi"
-                  designation="Member of the student committee"
+                  designation="Leader of the<br/>Design·Website Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Jiheon}
                   name="Jiheon Choi"
-                  designation="Member of the student committee"
+                  designation="Leader of the<br/>Planning Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Yooseung}
                   name="Youseung Hong"
-                  designation="Member of the student committee"
+                  designation="Leader of the<br/>PR Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Jisung}
                   name="Jisung Hwang"
-                  designation="Member of the student committee"
+                  designation="Leader of the<br/>Scenario Team"
                 />
               </div>
             </div>

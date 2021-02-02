@@ -39,7 +39,7 @@ class Vote extends Component {
                 highlight videos of debates.
               </a>
             </div>
-            <div className="w-100 d-flex justify-content-center guide-para mb-3">
+            <div className="w-100 d-flex justify-content-center button-guide mb-3">
               Click the button below for more information!
             </div>
             <div className="w-100 d-flex justify-content-center">
