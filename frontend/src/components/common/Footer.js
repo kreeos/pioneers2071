@@ -3,6 +3,7 @@ import "./Footer.css";
 // import Logos from "../../images/logos.png";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import DraftsIcon from "@material-ui/icons/Drafts";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 
 class Footer extends Component {
   render() {
@@ -27,6 +28,14 @@ class Footer extends Component {
                     style={{ color: "white" }}
                   >
                     <DraftsIcon className="link-icon" />
+                  </a>
+                </div>
+                <div class="icon-outline">
+                  <a
+                    href="https://www.youtube.com/channel/UCNOqNdp9vcxEPR3PGib4paA"
+                    style={{ color: "white" }}
+                  >
+                    <YouTubeIcon className="link-icon" />
                   </a>
                 </div>
               </div>
