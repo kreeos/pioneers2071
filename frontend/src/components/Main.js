@@ -7,6 +7,8 @@ import TimelineEvent from "./TimelineEvent";
 import { Link } from "react-router-dom";
 import MobileTimeline from "./MobileTimeline";
 
+import LiveTvIcon from "@material-ui/icons/LiveTv";
+
 class Main extends Component {
   constructor(props) {
     super(props);
@@ -124,6 +126,17 @@ class Main extends Component {
             </div>
           </div>
           <div class="d-flex justify-content-center row">
+            <div>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/channel/UCNOqNdp9vcxEPR3PGib4paA"
+              >
+                <button className="main-btn-live mx-3 mb-3">
+                  Live Streaming <LiveTvIcon className="mb-1" />
+                </button>
+              </a>
+            </div>
             <Link to="/vote">
               <button className="main-btn-join mx-3 mb-3">Vote Now</button>
             </Link>
@@ -132,6 +145,31 @@ class Main extends Component {
                 Register as Voter
               </button>
             </Link>
+          </div>
+        </div>
+        <div class="w-100">
+          <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div style={{ marginTop: "100px" }}>
+          <div className="timeline-title">
+            <a>
+              Official Video
+              <br />
+            </a>
+          </div>
+          <div className="container d-flex justify-content-center">
+            <iframe
+              id="ytplayer"
+              type="text/html"
+              width="80%"
+              height="500vh"
+              src="https://www.youtube.com/embed/DD95jsLaWi8?autoplay=1&origin=http://pioneers.kaist.ac.kr"
+              frameborder="0"
+            ></iframe>
           </div>
         </div>
         <div style={{ marginTop: "100px" }}>

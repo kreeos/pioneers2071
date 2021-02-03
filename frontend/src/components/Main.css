@@ -26,6 +26,7 @@
   display: flex;
   flex-direction: row;
   font-family: "Mulish";
+  margin-bottom: 2rem;
 }
 
 .button-div {
@@ -59,7 +60,7 @@
 }
 
 .logo-main {
-  width: 400px;
+  width: 100%;
   height: auto;
 }
 
@@ -121,4 +122,68 @@
 .timeline-line {
   width: 100vw;
   font-family: "Merriweather", serif;
+}
+
+.main-btn-live {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  width: 250px;
+  height: 50px;
+  font-size: 1.3rem;
+  text-align: center;
+  transition: all 0.2s;
+  /*font-size: 1.5rem;*/
+  border: 1px solid #ec5555;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+  border-radius: 50px;
+  font-family: "Mulish", serif;
+  color: #ffffff;
+  text-decoration: none;
+  background: #ec5555;
+}
+
+.main-btn-live:hover {
+  color: #ec5555;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/* ARROW */
+.arrow {
+  margin-top: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30px;
+  height: 110px;
+}
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+  transform: rotate(45deg);
+  margin-top: -10px;
+  margin-bottom: -10px;
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
 }

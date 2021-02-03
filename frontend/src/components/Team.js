@@ -74,42 +74,42 @@ class Team extends Component {
                 <ProfileUi
                   imgUrl={Mingyu}
                   name="Mingyu Jo"
-                  designation="Leader of the<br/>General Affairs"
+                  designation="Leader of<br/>General Affairs"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Hojung}
                   name="Hojung Cho"
-                  designation="Leader of the<br/>Multimedia Team"
+                  designation="Leader of<br/>Multimedia Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Daeun}
                   name="DaEun Choi"
-                  designation="Leader of the<br/>Design·Website Team"
+                  designation="Leader of<br/>Design·Website Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Jiheon}
                   name="Jiheon Choi"
-                  designation="Leader of the<br/>Planning Team"
+                  designation="Leader of<br/>Planning Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Yooseung}
                   name="Youseung Hong"
-                  designation="Leader of the<br/>PR Team"
+                  designation="Leader of<br/>PR Team"
                 />
               </div>
               <div class="col">
                 <ProfileUi
                   imgUrl={Jisung}
                   name="Jisung Hwang"
-                  designation="Leader of the<br/>Scenario Team"
+                  designation="Leader of<br/>Scenario Team"
                 />
               </div>
             </div>
