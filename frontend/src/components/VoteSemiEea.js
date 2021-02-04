@@ -48,7 +48,7 @@ class Vote extends Component {
                 rel="noopener noreferrer"
                 href="https://drive.google.com/drive/folders/1uLXquQb3gevRf1B5kcW5ZV1394cfdgHq"
               >
-                <button className="vote-btn-long mx-3 mb-3">
+                <button className="btn-long mx-3 mb-3">
                   Find your favorite teams! <LaunchIcon className="ml-1 mb-1" />
                 </button>
               </a>

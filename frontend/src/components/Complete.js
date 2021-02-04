@@ -3,10 +3,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class Complete extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="Complete">
@@ -25,7 +21,7 @@ class Complete extends Component {
           </div>
           <div className="complete-container">
             <Link to="/home">
-              <button className="btn-join">Back to Home</button>
+              <button className="btn-main">Back to Home</button>
             </Link>
           </div>
         </div>

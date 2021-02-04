@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Mulish");
 
+@import "./Buttons.css";
+
 .Main {
   background: no-repeat top/100% url(../images/star.png);
   background-color: #000525;
@@ -70,31 +72,6 @@
   text-align: left;
 }
 
-.main-btn-join {
-  display: inline-block;
-  margin: 0 0.3em 0.3em 0;
-  width: 250px;
-  height: 50px;
-  font-size: 1.3rem;
-  text-align: center;
-  transition: all 0.2s;
-  /*font-size: 1.5rem;*/
-  border: 1px solid #e4a86f;
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
-  border-radius: 50px;
-  font-family: "Mulish", serif;
-  color: #ffffff;
-  text-decoration: none;
-  background: #e4a86f;
-}
-
-.main-btn-join:hover {
-  color: #e4a86f;
-  background-color: #ffffff;
-  cursor: pointer;
-}
-
 .timeline-container {
   margin-top: 100px;
   text-align: left;
@@ -122,31 +99,6 @@
 .timeline-line {
   width: 100vw;
   font-family: "Merriweather", serif;
-}
-
-.main-btn-live {
-  display: inline-block;
-  margin: 0 0.3em 0.3em 0;
-  width: 250px;
-  height: 50px;
-  font-size: 1.3rem;
-  text-align: center;
-  transition: all 0.2s;
-  /*font-size: 1.5rem;*/
-  border: 1px solid #ec5555;
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
-  border-radius: 50px;
-  font-family: "Mulish", serif;
-  color: #ffffff;
-  text-decoration: none;
-  background: #ec5555;
-}
-
-.main-btn-live:hover {
-  color: #ec5555;
-  background-color: #ffffff;
-  cursor: pointer;
 }
 
 /* ARROW */

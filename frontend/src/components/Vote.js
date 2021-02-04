@@ -23,7 +23,7 @@ class Vote extends Component {
                   <br /> Burnt Fuels
                 </div>
                 <Link to="/vote/semi/env">
-                  <button className="vote-btn-join mb-3">Vote</button>
+                  <button className="btn-small mb-3">Vote</button>
                 </Link>
               </Card>
               <Card className="vote-card">
@@ -32,7 +32,7 @@ class Vote extends Component {
                   The World of an <br /> "Intelligent" Mind
                 </div>
                 <Link to="/vote/semi/eea">
-                  <button className="vote-btn-join mb-3">Vote</button>
+                  <button className="btn-small mb-3">Vote</button>
                 </Link>
               </Card>
             </div>
