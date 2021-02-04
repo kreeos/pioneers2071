@@ -101,7 +101,7 @@ class GuideParticipants extends Component {
               target="blank"
               href="https://drive.google.com/drive/folders/1N4jsS9zycxCT-HiMgixxEvSh7xbMo7Am?usp=sharing"
             >
-              <button className="btn-join">Download</button>
+              <button className="btn-main">Download</button>
             </a>
           </div>
         </div>

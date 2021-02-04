@@ -1,0 +1,51 @@
+.poster-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 350px;
+  margin-bottom: 5rem;
+}
+
+.color-box {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.5rem;
+  font-family: Mulish;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  color: white;
+}
+
+.poster-img {
+  width: 148px;
+  height: 210px;
+}
+
+.poster-box {
+  width: 250px;
+  padding-left: 2rem;
+}
+
+.poster-name {
+  margin-bottom: 0.5rem;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black;
+}
+
+.poster-des {
+  font-size: 0.8rem;
+  font-family: Mulish;
+  color: black;
+  padding-bottom: 2rem;
+  line-height: 150%;
+  white-space: pre;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(266deg)
+    brightness(104%) contrast(101%);
+}

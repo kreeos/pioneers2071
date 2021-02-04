@@ -165,7 +165,7 @@ class GuideVoters extends Component {
           </div>
           <div className="guide-button-div">
             <Link to="/register/vote">
-              <button className="btn-join">Register as Voter</button>
+              <button className="btn-main">Register as Voter</button>
             </Link>
           </div>
         </div>

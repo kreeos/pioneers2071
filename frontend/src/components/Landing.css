@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Mulish');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mulish");
 
 .Landing {
   background: no-repeat top/100% url(../images/star.png);
@@ -13,7 +13,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .title_div {
@@ -46,7 +46,7 @@
 
 .modal {
   font-size: 12px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 .modal-header {
   width: 100%;
@@ -76,80 +76,54 @@
   text-align: center;
 }
 
-.btn-join{
-  display:inline-block;
-  text-decoration:none;
-  width: 250px;
-  height: 50px;
-  font-family:'Mulish',sans-serif;
-  font-weight:200;
-  text-align:center;
-  transition: all 0.2s;
-  /*font-size: 1.5rem;*/
-  background: #E4A86F;
-  /* Main Color */
-  border: 1px solid #E4A86F;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
-  border-radius: 50px;
-  color: #FFFFFF;
-}
-.btn-join:hover{
-  color:#E4A86F;
-  background-color:#FFFFFF;
-}
-
 .btn-submit {
-  display:inline-block;
-  padding:0.35em 1.2em;
-  background-color: #FFFFFF;
-  text-decoration:none;
-  font-weight:300;
-  color:#000000;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000000;
   font-size: 1.1rem;
-  text-align:center;
+  text-align: center;
   transition: all 0.2s;
 
-  border: 1px solid #E4A86F;
+  border: 1px solid #e4a86f;
   box-sizing: border-box;
   box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
   border-radius: 50px;
-  color: #E4A86F;
+  color: #e4a86f;
 }
-.btn-submit:hover{
-  border: 1px solid #FFFFFF;
-  color:#FFFFFF;
-  background-color:#E4A86F;
+.btn-submit:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: #e4a86f;
 }
 
 .btn-cancel {
-  display:inline-block;
-  padding:0.35em 1.2em;
+  display: inline-block;
+  padding: 0.35em 1.2em;
   font-size: 1.1rem;
-  margin-left:10px;
-  background-color: #FFFFFF;
-  text-decoration:none;
-  font-weight:300;
-  color:#000000;
-  text-align:center;
+  margin-left: 10px;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
   transition: all 0.2s;
-  
-  border: 1px solid #E4A86F;
+
+  border: 1px solid #e4a86f;
   box-sizing: border-box;
   box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
   border-radius: 50px;
-  color: #E4A86F;
+  color: #e4a86f;
 }
 
-.btn-cancel:hover{
-  border: 1px solid #FFFFFF;
-  color:#FFFFFF;
-  background-color:#E4A86F;
+.btn-cancel:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: #e4a86f;
 }
 
 .popup-content {
   border-radius: 0.3em;
 }
-
-
-

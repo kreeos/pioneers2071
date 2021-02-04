@@ -34,30 +34,6 @@
   font-family: "Mulish";
 }
 
-.btn-join {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  margin: 0 0.3em 0.3em 0;
-  width: 250px;
-  height: 50px;
-  text-align: center;
-  transition: all 0.2s;
-  font-size: 1.3rem;
-  border: 1px solid #e4a86f;
-  box-sizing: border-box;
-  border-radius: 50px;
-  font-family: "Mulish", serif;
-  color: #ffffff;
-  text-decoration: none;
-  background: #e4a86f;
-}
-
-.btn-join:hover {
-  color: #e4a86f;
-  background-color: #ffffff;
-  cursor: pointer;
-}
-
 .btn-vote {
   display: inline-block;
   padding: 0.35em 1.2em;

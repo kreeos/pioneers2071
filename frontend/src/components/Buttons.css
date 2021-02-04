@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish");
+
+.btn-main {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  width: 250px;
+  height: 50px;
+  font-size: 1.3rem;
+  text-align: center;
+  transition: all 0.2s;
+  border: 1px solid #e4a86f;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+  border-radius: 50px;
+  font-family: "Mulish", serif;
+  color: #ffffff;
+  text-decoration: none;
+  background: #e4a86f;
+}
+
+.btn-main:hover {
+  color: #e4a86f;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-red {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  width: 250px;
+  height: 50px;
+  font-size: 1.3rem;
+  text-align: center;
+  transition: all 0.2s;
+  border: 1px solid #ec5555;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+  border-radius: 50px;
+  font-family: "Mulish", serif;
+  color: #ffffff;
+  text-decoration: none;
+  background: #ec5555;
+}
+
+.btn-red:hover {
+  color: #ec5555;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-small {
+  display: inline-block;
+  width: 80%;
+  max-width: 150px;
+  height: 40px;
+  font-size: 1rem;
+  text-align: center;
+  transition: all 0.2s;
+  border: 1px solid #e4a86f;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+  border-radius: 50px;
+  font-family: "Mulish", serif;
+  color: #ffffff;
+  text-decoration: none;
+  background: #e4a86f;
+}
+
+.btn-small:hover {
+  color: #e4a86f;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-long {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  width: 320px;
+  height: 50px;
+  font-size: 1.3rem;
+  text-align: center;
+  transition: all 0.2s;
+  border: 1px solid #e4a86f;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+  border-radius: 50px;
+  font-family: "Mulish", serif;
+  color: #ffffff;
+  text-decoration: none;
+  background: #e4a86f;
+}
+
+.btn-long:hover {
+  color: #e4a86f;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-disabled {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  width: 320px;
+  height: 50px;
+  font-size: 1.3rem;
+  text-align: center;
+  transition: all 0.2s;
+  border: 1px solid #e4a86f;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 20px rgba(104, 109, 224, 0.5));
+  border-radius: 50px;
+  font-family: "Mulish", serif;
+  color: #ffffff;
+  text-decoration: none;
+  background: #e4a86f;
+  pointer-events: none;
+}
