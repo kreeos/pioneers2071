@@ -2,7 +2,7 @@ import "./Team.css";
 import React, { Component } from "react";
 import PosterUi from "./PosterUi";
 
-import Poster from "../images/posters/poster_example.png";
+import Poster from "../images/posters/poster_example.jpg";
 
 class Finalists extends Component {
   render() {
@@ -20,8 +20,8 @@ class Finalists extends Component {
               <div class="col">
                 <PosterUi
                   imgUrl={Poster}
-                  name="OKAI"
-                  designation="Chaeyoung Jung<br/>Hyunyoung Jung<br/>Sanghoon Lee<br/>Seungwon Ok<br/>Sihyun Yoo<br/>Sujae Jeon"
+                  name="Team Test"
+                  designation="Person1<br/>Person2"
                   color="#fc766a"
                   title="Finalist"
                   link="https://www.naver.com"
@@ -30,8 +30,8 @@ class Finalists extends Component {
               <div class="col">
                 <PosterUi
                   imgUrl={Poster}
-                  name="OKAI"
-                  designation="Chaeyoung Jung<br/>Hyunyoung Jung<br/>Sanghoon Lee<br/>Seungwon Ok<br/>Sihyun Yoo<br/>Sujae Jeon"
+                  name="Team Test"
+                  designation="Person1<br/>Person2"
                   color="#fc766a"
                   title="Finalist"
                 />
@@ -39,8 +39,8 @@ class Finalists extends Component {
               <div class="col">
                 <PosterUi
                   imgUrl={Poster}
-                  name="OKAI"
-                  designation="Chaeyoung Jung<br/>Hyunyoung Jung<br/>Sanghoon Lee<br/>Seungwon Ok<br/>Sihyun Yoo<br/>Sujae Jeon"
+                  name="Team Test"
+                  designation="Person1<br/>Person2"
                   color="#fc766a"
                   title="Finalist"
                 />
@@ -53,8 +53,8 @@ class Finalists extends Component {
               <div>
                 <PosterUi
                   imgUrl={Poster}
-                  name="OKAI"
-                  designation="Chaeyoung Jung<br/>Hyunyoung Jung<br/>Sanghoon Lee<br/>Seungwon Ok<br/>Sihyun Yoo<br/>Sujae Jeon"
+                  name="Team Test"
+                  designation="Person1<br/>Person2"
                   color="#008ecc"
                   title="Finalist"
                   link="https://www.naver.com"
@@ -68,8 +68,8 @@ class Finalists extends Component {
               <div class="col">
                 <PosterUi
                   imgUrl={Poster}
-                  name="OKAI"
-                  designation="Chaeyoung Jung<br/>Hyunyoung Jung<br/>Sanghoon Lee<br/>Seungwon Ok<br/>Sihyun Yoo<br/>Sujae Jeon"
+                  name="Team Test"
+                  designation="Person1<br/>Person2"
                   color="#3caea3"
                   title="Finalist"
                   link="https://www.naver.com"
@@ -78,8 +78,8 @@ class Finalists extends Component {
               <div class="col">
                 <PosterUi
                   imgUrl={Poster}
-                  name="OKAI"
-                  designation="Chaeyoung Jung<br/>Hyunyoung Jung<br/>Sanghoon Lee<br/>Seungwon Ok<br/>Sihyun Yoo<br/>Sujae Jeon"
+                  name="Team Test"
+                  designation="Person1<br/>Person2"
                   color="#3caea3"
                   title="Finalist"
                 />
@@ -87,8 +87,8 @@ class Finalists extends Component {
               <div class="col">
                 <PosterUi
                   imgUrl={Poster}
-                  name="OKAI"
-                  designation="Chaeyoung Jung<br/>Hyunyoung Jung<br/>Sanghoon Lee<br/>Seungwon Ok<br/>Sihyun Yoo<br/>Sujae Jeon"
+                  name="Team Test"
+                  designation="Person1<br/>Person2"
                   color="#3caea3"
                   title="Finalist"
                 />
