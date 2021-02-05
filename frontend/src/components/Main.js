@@ -132,17 +132,19 @@ class Main extends Component {
                 rel="noopener noreferrer"
                 href="https://www.youtube.com/channel/UCNOqNdp9vcxEPR3PGib4paA"
               >
-                <button className="btn-red mx-3 mb-3">
-                  Live Streaming <LiveTvIcon className="mb-1" />
+                <button className="btn-long mx-3 mb-3">
+                  Semi-Final Debates <LiveTvIcon className="mb-1" />
                 </button>
               </a>
             </div>
-            <Link to="/vote">
-              <button className="btn-main mx-3 mb-3">Vote Now</button>
+            <Link to="/finalists">
+              <button className="btn-long mx-3 mb-3">
+                Check out the Finalists!
+              </button>
             </Link>
-            <Link to="/guide/voters">
+            {/* <Link to="/guide/voters">
               <button className="btn-main mx-3 mb-3">Register as Voter</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div class="w-100">
