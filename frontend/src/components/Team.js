@@ -15,6 +15,10 @@ import Daeun from "../images/profiles/Daeun.jpeg";
 import Seonghwan from "../images/profiles/Seonghwan.jpeg";
 import Kyungbin from "../images/profiles/Kyungbin.jpeg";
 
+import Moon from "../images/profiles/Moon.jpeg";
+import Sukyoung from "../images/profiles/Sukyoung.jpeg";
+import Seunghyup from "../images/profiles/Seunghyup.jpeg";
+
 class Team extends Component {
   render() {
     return (
@@ -25,7 +29,7 @@ class Team extends Component {
           </div>
           <div>
             <div className="team-category">
-              <a>Student Committee</a>
+              <a>Students in Planning Committee</a>
             </div>
             <div class="row justify-content-md-center mb-5">
               <div class="col">
@@ -112,6 +116,72 @@ class Team extends Component {
                   designation="Leader of<br/>Scenario Team"
                 />
               </div>
+            </div>
+          </div>
+          <div>
+            <div className="team-category">
+              <a>Professors in Planning Committee</a>
+            </div>
+            <div className="team-guide">
+              The professors worked with the students on the overall planning of
+              the conference. They gave us advice on details from setting the
+              overall direction of the conference.
+            </div>
+            <div class="row justify-content-md-center mb-5">
+              <div class="col">
+                <ProfileUi
+                  imgUrl={Sukyoung}
+                  name="Sukyoung Ryu"
+                  designation="Associate Vice President of<br/>Student Life"
+                />
+              </div>
+              <div class="col">
+                <ProfileUi
+                  imgUrl={Seunghyup}
+                  name="Seunghyup Yoo"
+                  designation="Association Vice President of<br/>Student Affairs & Policy"
+                />
+              </div>
+              {/* <div class="col">
+                <ProfileUi
+                  imgUrl={Seonghwan}
+                  name="Seonghwan Seo"
+                  designation="Executive Secretary"
+                />
+              </div> */}
+            </div>
+          </div>
+          <div>
+            <div className="team-category">
+              <a>Professors (Advisors)</a>
+            </div>
+            <div className="team-guide">
+              The professors left a number of tips on planning the conference.
+              They also gave us advice on a number of things to consider when
+              writing the scenarios.
+            </div>
+            <div class="row justify-content-md-center mb-5">
+              <div class="col">
+                <ProfileUi
+                  imgUrl={Moon}
+                  name="Moon Choi"
+                  designation="Associate Professor of the<br/>Graduate School of Science<br/>and Technology Policy"
+                />
+              </div>
+              {/* <div class="col">
+                <ProfileUi
+                  imgUrl={Seunghyup}
+                  name="Seunghyup Yoo"
+                  designation="Association Vice President of Student Affairs & Policy"
+                />
+              </div>
+              <div class="col">
+                <ProfileUi
+                  imgUrl={Seonghwan}
+                  name="Seonghwan Seo"
+                  designation="Executive Secretary"
+                />
+              </div> */}
             </div>
           </div>
         </div>

@@ -87,7 +87,7 @@ class Finalists extends Component {
                 <PosterUi
                   imgUrl={MissingSemester}
                   name="Missing Semester"
-                  designation="신민혜<br/>Gu Hong Min<br/>Heeju Choi<br/>Taeyang Yoon<br/>To Hong Min"
+                  designation="Minhye Shin<br/>Gu Hong Min<br/>Heeju Choi<br/>Taeyang Yoon<br/>To Hong Min"
                   color="#3caea3"
                   title="Finalist"
                   link="https://drive.google.com/drive/u/6/folders/1T1VE2FYQ4_luxyIqmprHo9k_vQbLWF9P"
