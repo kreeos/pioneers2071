@@ -7,7 +7,7 @@ function ProfileUi(props) {
       <div className="box">
         <img class="img-box" src={props.imgUrl} alt="profile-img" />
         <div class="name">{props.name}</div>
-        <div class="des">{props.designation.replace("<br/>", "\n")}</div>
+        <div class="des">{props.designation.replaceAll("<br/>", "\n")}</div>
       </div>
     </div>
   );

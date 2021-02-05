@@ -58,3 +58,18 @@
   right: 0;
   border-top: 5px solid white;
 }
+
+.team-guide {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-top: 10px;
+  width: 100%;
+  max-width: 700px;
+
+  font-family: Mulish;
+  font-size: 1rem;
+  text-align: center;
+}
