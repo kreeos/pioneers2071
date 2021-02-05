@@ -2,6 +2,8 @@ import "./VotePage.css";
 import React, { Component } from "react";
 import LaunchIcon from "@material-ui/icons/Launch";
 
+import Arrow from "./Arrow";
+
 class Vote extends Component {
   constructor(props) {
     super(props);
@@ -54,11 +56,7 @@ class Vote extends Component {
               </a>
             </div>
             <div class="w-100">
-              <div class="arrow">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+              <Arrow />
             </div>
           </div>
         </div>

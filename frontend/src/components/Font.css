@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mulish");
+
+.main-title {
+  font-family: Mulish;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.page-title {
+  color: white;
+  font-family: Merriweather;
+  font-size: 3rem;
+  text-align: center;
+
+  margin-top: 25vh;
+  margin-bottom: 15vh;
+}
+
+.body-text {
+  font-family: Mulish;
+  font-size: 1.15rem;
+}
+
+.subtitle-left {
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10vh;
+  position: relative;
+}
+
+.subtitle-left:before {
+  margin-top: -10px;
+  content: "";
+  position: absolute;
+  width: 40px;
+  border-top: 5px solid white;
+}

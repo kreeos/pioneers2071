@@ -19,7 +19,7 @@ class Finalists extends Component {
             <a>Finalists</a>
           </div>
           <div>
-            <div className="team-category">
+            <div id="env" className="team-category">
               <a>Society Made of Burnt Fuels</a>
             </div>
             <div class="row justify-content-md-center mb-5">
@@ -69,7 +69,7 @@ class Finalists extends Component {
                 />
               </div>
             </div>
-            <div className="team-category">
+            <div id="eea" className="team-category">
               <a>The World of an "Intelligent" Mind</a>
             </div>
             <div class="row justify-content-md-center mb-5">

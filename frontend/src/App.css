@@ -2,9 +2,4 @@
   display: none;
 }
 
-.body-text {
-  font-family: Mulish;
-  font-size: 1.15rem;
-}
-
 @import "bootstrap/dist/css/bootstrap.min.css";
