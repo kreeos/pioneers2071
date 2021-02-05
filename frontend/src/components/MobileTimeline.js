@@ -47,7 +47,7 @@ export default function MobileTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography className="title-text" component="h1">
+          <Typography className="timeline-title-text" component="h1">
             Registration Opens
           </Typography>
           <Typography className="content-text">
@@ -66,7 +66,7 @@ export default function MobileTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography className="title-text" component="h1">
+          <Typography className="timeline-title-text" component="h1">
             Registration Closes
           </Typography>
           <Typography className="content-text">
@@ -85,7 +85,7 @@ export default function MobileTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography className="title-text" component="h1">
+          <Typography className="timeline-title-text" component="h1">
             Proposal Submission
           </Typography>
           <Typography className="content-text">
@@ -104,7 +104,7 @@ export default function MobileTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography className="title-text" component="h1">
+          <Typography className="timeline-title-text" component="h1">
             Announcement
           </Typography>
           <Typography className="content-text">

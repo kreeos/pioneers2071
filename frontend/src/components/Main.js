@@ -7,6 +7,8 @@ import TimelineEvent from "./TimelineEvent";
 import { Link } from "react-router-dom";
 import MobileTimeline from "./MobileTimeline";
 
+import Arrow from "./Arrow";
+
 import LiveTvIcon from "@material-ui/icons/LiveTv";
 
 class Main extends Component {
@@ -92,76 +94,62 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="Main">
+      <div className="main-background">
         <div className="container" style={{ marginTop: "20vh" }}>
-          <div className="main-content row">
+          <div className="d-flex row mb-5">
             <div className="col-sm-8">
-              <div style={{ textAlign: "left" }} className="mb-5">
-                <div style={{ fontSize: "2.5rem", fontWeight: "800" }}>
-                  Pioneers 2071:
-                </div>
-                <div style={{ fontSize: "1.5rem", fontWeight: "800" }}>
+              <div className="mb-5">
+                <div className="main-title">Pioneers 2071:</div>
+                <div className="main-title" style={{ fontSize: "1.5rem" }}>
                   Questioning the Next 50 Years
                 </div>
               </div>
-              <div style={{ textAlign: "left" }} className="body-text">
-                <div>
-                  We provide you with future scenarios that describe the 3
-                  global challenges for the next 50 years:
-                  <br />
-                  <br />
-                  Climate Change, Pandemic, and Artificial Intelligence.
-                  <br />
-                  <br />
-                  Choose a topic, come up with ideology, policies, and
-                  innovative ideas to resolve the issues, and present your ideas
-                  to the world!
-                </div>
+              <div className="body-text">
+                We provide you with future scenarios that describe the 3 global
+                challenges for the next 50 years:
                 <br />
-                <p>Feb 3rd, 2021 - Feb 7th, 2021 (GMT+9)</p>
+                <br />
+                Climate Change, Pandemic, and Artificial Intelligence.
+                <br />
+                <br />
+                Choose a topic, come up with ideology, policies, and innovative
+                ideas to resolve the issues, and present your ideas to the
+                world!
+                <br />
+                <br />
+                Feb 3rd, 2021 - Feb 7th, 2021 (GMT+9)
               </div>
             </div>
             <div className="col-sm-4">
-              <img src={Planet} className="logo-main" />
+              <img src={Planet} className="w-100" />
             </div>
           </div>
           <div class="d-flex justify-content-center row">
-            <div>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.youtube.com/channel/UCNOqNdp9vcxEPR3PGib4paA"
-              >
-                <button className="btn-long mx-3 mb-3">
-                  Semi-Final Debates <LiveTvIcon className="mb-1" />
-                </button>
-              </a>
-            </div>
-            <Link to="/finalists">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/channel/UCNOqNdp9vcxEPR3PGib4paA"
+            >
+              <button className="btn-long mx-3 mb-3">
+                Semi-Final Debates <LiveTvIcon className="mb-1" />
+              </button>
+            </a>
+            {/* <Link to="/finalists">
               <button className="btn-long mx-3 mb-3">
                 Check out the Finalists!
               </button>
-            </Link>
-            {/* <Link to="/guide/voters">
-              <button className="btn-main mx-3 mb-3">Register as Voter</button>
             </Link> */}
+            <Link to="/vote">
+              <button className="btn-long mx-3 mb-3">Final Round Vote</button>
+            </Link>
           </div>
         </div>
         <div class="w-100">
-          <div class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          <Arrow />
         </div>
-        <div style={{ marginTop: "100px" }}>
-          <div className="timeline-title">
-            <a>
-              Official Video
-              <br />
-            </a>
-          </div>
-          <div className="container d-flex justify-content-center">
+        <div class="container" style={{ marginTop: "100px" }}>
+          <div className="subtitle-left">Official Video</div>
+          <div className="d-flex justify-content-center">
             <iframe
               id="ytplayer"
               type="text/html"
@@ -173,12 +161,7 @@ class Main extends Component {
           </div>
         </div>
         <div style={{ marginTop: "100px" }}>
-          <div className="timeline-title">
-            <a>
-              Timeline
-              <br />
-            </a>
-          </div>
+          <div className="container subtitle-left">Timeline</div>
           <div className="timeline-line mb-5">{this.state.renderComponent}</div>
         </div>
       </div>
