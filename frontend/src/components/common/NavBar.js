@@ -86,6 +86,7 @@ class NavBar extends Component {
               <NavDropdown title="Conference" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/scenario">Scenario</NavDropdown.Item>
                 <NavDropdown.Item href="/schedule">Schedule</NavDropdown.Item>
+                <NavDropdown.Item href="/finalists">Finalists</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Participation" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/guide/participants">
@@ -95,7 +96,7 @@ class NavBar extends Component {
                   Guide for Voters
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/register/vote">Registration</Nav.Link>
+              {/* <Nav.Link href="/register/vote">Registration</Nav.Link> */}
               <Nav.Link href="/vote">Vote</Nav.Link>
             </Nav>
             <a href="https://kaist.ac.kr" style={{ color: "white" }}>

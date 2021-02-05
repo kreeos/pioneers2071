@@ -74,8 +74,8 @@ class App extends Component {
             <Route exact path="/register" component={Register} />
             <Route exact path="/complete" component={Complete} />
             <Route exact path="/schedule" component={Schedule} />
-            <Route exact path="/register/event" component={RegisterEvent} />
-            <Route exact path="/register/vote" component={RegisterVote} />
+            {/* <Route exact path="/register/event" component={RegisterEvent} /> */}
+            {/* <Route exact path="/register/vote" component={RegisterVote} /> */}
             <Route exact path="/guide" component={GuideParticipants} />
             <Route
               exact
@@ -83,11 +83,12 @@ class App extends Component {
               component={GuideParticipants}
             />
             <Route exact path="/team" component={Team} />
+            <Route exact path="/finalists" component={Finalists} />
             <Route exact path="/guide/voters" component={GuideVoters} />
             {/* <Route exact path="/vote" component={Vote} /> */}
             <Route exact path="/vote" component={VoteFin} />
-            <Route exact path="/vote/semi/env" component={VoteSemiEnv} />
-            <Route exact path="/vote/semi/eea" component={VoteSemiEea} />
+            {/* <Route exact path="/vote/semi/env" component={VoteSemiEnv} />
+            <Route exact path="/vote/semi/eea" component={VoteSemiEea} /> */}
             <Redirect from="/vote" to="/vote" />
             <Redirect from="/" to="/" />
           </Switch>

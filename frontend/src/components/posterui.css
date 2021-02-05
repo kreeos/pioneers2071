@@ -2,11 +2,13 @@
   background-color: white;
   border-radius: 10px;
   width: 350px;
-  margin-bottom: 5rem;
+  height: 275px;
+  margin-bottom: 2rem;
 }
 
 .color-box {
   width: 100%;
+  height: 50px;
   border-radius: 10px 10px 0 0;
   font-size: 1.5rem;
   font-family: Mulish;
@@ -18,28 +20,32 @@
   color: white;
 }
 
+.content-box {
+  height: 225px;
+}
+
 .poster-img {
-  width: 148px;
-  height: 210px;
+  height: 100%;
+  width: auto;
 }
 
 .poster-box {
   width: 250px;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .poster-name {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
   font-family: Mulish;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   color: black;
 }
 
 .poster-des {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: Mulish;
-  color: black;
+  color: #444444;
   padding-bottom: 2rem;
   line-height: 150%;
   white-space: pre;
