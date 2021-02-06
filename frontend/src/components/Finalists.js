@@ -1,4 +1,3 @@
-import "./Team.css";
 import React, { Component } from "react";
 import PosterUi from "./PosterUi";
 
@@ -13,14 +12,12 @@ import GooseBrain from "../images/posters/GooseBrain.png";
 class Finalists extends Component {
   render() {
     return (
-      <div className="Team">
-        <div className="container">
-          <div className="team-title-div">
-            <a>Finalists</a>
-          </div>
+      <div className="main-background">
+        <div className="container mb-5">
+          <div className="page-title-small">Finalists</div>
           <div>
-            <div id="env" className="team-category">
-              <a>Society Made of Burnt Fuels</a>
+            <div id="env" className="category-title-center">
+              Society Made of Burnt Fuels
             </div>
             <div class="row justify-content-md-center mb-5">
               <div class="col w-auto">
@@ -54,8 +51,8 @@ class Finalists extends Component {
                 />
               </div>
             </div>
-            <div className="team-category">
-              <a>The World With the Invisible Threat</a>
+            <div className="category-title-center">
+              The World With the Invisible Threat
             </div>
             <div class="row justify-content-md-center mb-5">
               <div class="col">
@@ -69,8 +66,8 @@ class Finalists extends Component {
                 />
               </div>
             </div>
-            <div id="eea" className="team-category">
-              <a>The World of an "Intelligent" Mind</a>
+            <div id="eea" className="category-title-center">
+              The World of an "Intelligent" Mind
             </div>
             <div class="row justify-content-md-center mb-5">
               <div class="col">

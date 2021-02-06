@@ -14,7 +14,6 @@ import Register from "./components/Register";
 import Schedule from "./components/Schedule";
 import Secnario from "./components/Scenario";
 import Complete from "./components/Complete";
-import Committee from "./components/Committee";
 import RegisterVote from "./components/RegisterVote";
 import RegisterEvent from "./components/RegisterEvent";
 import GuideVoters from "./components/GuideVoters";
@@ -72,7 +71,6 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/scenario" component={Secnario} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/committee" component={Committee} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/complete" component={Complete} />
             <Route exact path="/schedule" component={Schedule} />

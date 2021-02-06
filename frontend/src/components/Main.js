@@ -10,6 +10,8 @@ import MobileTimeline from "./MobileTimeline";
 import Arrow from "./Arrow";
 
 import LiveTvIcon from "@material-ui/icons/LiveTv";
+import EmojiEventsOutlinedIcon from "@material-ui/icons/EmojiEventsOutlined";
+import HowToVoteIcon from "@material-ui/icons/HowToVote";
 
 class Main extends Component {
   constructor(props) {
@@ -130,17 +132,23 @@ class Main extends Component {
               rel="noopener noreferrer"
               href="https://www.youtube.com/channel/UCNOqNdp9vcxEPR3PGib4paA"
             >
-              <button className="btn-long mx-3 mb-3">
-                Semi-Final Debates <LiveTvIcon className="mb-1" />
+              <button className="btn-main mx-3 mb-3">
+                Semi-Final Videos <LiveTvIcon className="mb-1" />
               </button>
             </a>
-            {/* <Link to="/finalists">
-              <button className="btn-long mx-3 mb-3">
-                Check out the Finalists!
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://docs.google.com/spreadsheets/d/1ZA8HD2zwJsBLPUgbvQ5qvbMKwaps6JYfKyti0w5i1Hs/edit#gid=1801011886"
+            >
+              <button className="btn-main mx-3 mb-3">
+                Voters' Ranking <EmojiEventsOutlinedIcon className="mb-1" />
               </button>
-            </Link> */}
+            </a>
             <Link to="/vote">
-              <button className="btn-long mx-3 mb-3">Final Round Vote</button>
+              <button className="btn-main mx-3 mb-3">
+                Final Round Vote <HowToVoteIcon className="mb-1" />
+              </button>
             </Link>
           </div>
         </div>
