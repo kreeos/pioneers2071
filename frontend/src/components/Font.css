@@ -17,9 +17,31 @@
   margin-bottom: 15vh;
 }
 
+.page-title-small {
+  color: white;
+  font-family: Merriweather;
+  font-size: 3rem;
+  text-align: center;
+
+  margin-top: 25vh;
+  margin-bottom: 10vh;
+}
+
+.title-text {
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .body-text {
   font-family: Mulish;
   font-size: 1.15rem;
+}
+
+.page-center-text {
+  font-family: Mulish;
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 .subtitle-left {
@@ -36,4 +58,17 @@
   position: absolute;
   width: 40px;
   border-top: 5px solid white;
+}
+
+.category-title-center-guide {
+  font-family: Mulish;
+  font-size: 1rem;
+  text-align: center;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+  padding-top: 10px;
+  max-width: 700px;
 }
