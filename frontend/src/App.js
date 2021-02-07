@@ -86,11 +86,11 @@ class App extends Component {
             <Route exact path="/finalists" component={Finalists} />
             <Route exact path="/guide/voters" component={GuideVoters} />
             {/* <Route exact path="/vote" component={Vote} /> */}
-            <Route exact path="/vote" component={Vote} />
+            <Route exact path="/vote" component={VoteFin} />
             {/* <Route exact path="/vote/semi/env" component={VoteSemiEnv} />
             <Route exact path="/vote/semi/eea" component={VoteSemiEea} /> */}
-            <Route exact path="/vote/final/env" component={VoteFinalEnv} />
-            <Route exact path="/vote/final/eea" component={VoteFinalEea} />
+            {/* <Route exact path="/vote/final/env" component={VoteFinalEnv} />
+            <Route exact path="/vote/final/eea" component={VoteFinalEea} /> */}
             <Redirect from="/vote" to="/vote" />
             <Redirect from="/" to="/" />
           </Switch>
