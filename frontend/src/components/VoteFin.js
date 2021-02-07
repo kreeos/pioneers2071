@@ -9,27 +9,25 @@ class VoteFin extends Component {
 
   render() {
     return (
-      <div class="Vote">
+      <div class="main-background">
         <div>
           <div className="mb-5 container">
-            <div className="vote-title-div">
-              <a>Semi-Final Round Voting</a>
+            <div className="page-title">Final Round Voting</div>
+            <div className="page-center-text mb-5 pb-3 w-75 mx-auto">
+              The final round voting period is over.
+              <br />
+              The award ceremony will be held at 4:40 pm on February 7th
+              (GMT+9). <br />
+              We will announce the final voters' ranking and the winners by
+              registered email as soon as the results are counted.
             </div>
-            <div className="vote-main-div">
-              <a>
-                The semi-final round voting period is over.
-                <br />
-                The final round voting period will open at 0:00 KST on February
-                6th.
-              </a>
-            </div>
-            {/* <div className="w-100 d-flex justify-content-center">
+            <div className="w-100 d-flex justify-content-center">
               <Link to="/finalists">
                 <button className="btn-long mx-3 mb-3">
                   Check out the finalists
                 </button>
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
