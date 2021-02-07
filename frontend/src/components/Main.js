@@ -132,8 +132,8 @@ class Main extends Component {
               rel="noopener noreferrer"
               href="https://www.youtube.com/channel/UCNOqNdp9vcxEPR3PGib4paA"
             >
-              <button className="btn-main mx-3 mb-3">
-                Semi-Final Videos <LiveTvIcon className="mb-1" />
+              <button className="btn-red mx-3 mb-3">
+                Live Streaming <LiveTvIcon className="mb-1" />
               </button>
             </a>
             <a
