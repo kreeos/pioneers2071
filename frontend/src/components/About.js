@@ -83,12 +83,12 @@ class About extends Component {
               <br />
               Grand Award (Top 1 team in total): $3000
               <br />
-              Gold Award (2 teams in total): $2000
+              Gold Award (1 teams in total): $2000
               <br /> <br />
               The second-place winners of each division are given the silver
               award.
               <br />
-              Silver (2 teams): $1000
+              Silver Award (3 teams in total): $1000
             </div>
           </div>
         </div>
