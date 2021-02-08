@@ -26,6 +26,8 @@ import VoteSemiEnv from "./components/VoteSemiEnv";
 import VoteFinalEea from "./components/VoteFinalEea";
 import VoteFinalEnv from "./components/VoteFinalEnv";
 import Finalists from "./components/Finalists";
+import Awards from "./components/Awards";
+import Participants from "./components/Participants";
 
 class App extends Component {
   constructor(props) {
@@ -84,6 +86,8 @@ class App extends Component {
             />
             <Route exact path="/team" component={Team} />
             <Route exact path="/finalists" component={Finalists} />
+            <Route exact path="/awards" component={Awards} />
+            <Route exact path="/participants" component={Participants} />
             <Route exact path="/guide/voters" component={GuideVoters} />
             {/* <Route exact path="/vote" component={Vote} /> */}
             <Route exact path="/vote" component={VoteFin} />
