@@ -133,23 +133,23 @@ class Main extends Component {
               href="https://www.youtube.com/channel/UCNOqNdp9vcxEPR3PGib4paA"
             >
               <button className="btn-red mx-3 mb-3">
-                Live Streaming <LiveTvIcon className="mb-1" />
+                Youtube Channel <LiveTvIcon className="mb-1" />
               </button>
             </a>
+            <Link to="/awards">
+              <button className="btn-main mx-3 mb-3">
+                Awards <EmojiEventsOutlinedIcon className="mb-1" />
+              </button>
+            </Link>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://docs.google.com/spreadsheets/d/1ZA8HD2zwJsBLPUgbvQ5qvbMKwaps6JYfKyti0w5i1Hs/edit#gid=1801011886"
+              href="https://docs.google.com/spreadsheets/d/1wZoNkJY_fdpZkwor6P_fshLkDxvH_Hqpw8zmhhSpnIQ/edit#gid=1801011886"
             >
               <button className="btn-main mx-3 mb-3">
                 Voters' Ranking <EmojiEventsOutlinedIcon className="mb-1" />
               </button>
             </a>
-            <Link to="/vote">
-              <button className="btn-main mx-3 mb-3">
-                Final Round Vote <HowToVoteIcon className="mb-1" />
-              </button>
-            </Link>
           </div>
         </div>
         <div class="w-100">

@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-// import NavBaritem from "./NavBaritem";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import Logo from "../../images/logo-menu.png";
 import Logo50 from "../../images/logos.png";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 import { connect } from "react-redux";
@@ -80,13 +78,16 @@ class NavBar extends Component {
             <Nav className="mr-auto Navbar-custom">
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/about">Pioneer 2071</NavDropdown.Item>
-                <NavDropdown.Item href="/team">Team</NavDropdown.Item>
+                <NavDropdown.Item href="/team">Planning Team</NavDropdown.Item>
                 <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Conference" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/scenario">Scenario</NavDropdown.Item>
                 <NavDropdown.Item href="/schedule">Schedule</NavDropdown.Item>
-                <NavDropdown.Item href="/finalists">Finalists</NavDropdown.Item>
+                <NavDropdown.Item href="/awards">Awards</NavDropdown.Item>
+                <NavDropdown.Item href="/participants">
+                  Participants
+                </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Participation" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/guide/participants">
@@ -105,71 +106,6 @@ class NavBar extends Component {
           </Navbar.Collapse>
         </div>
       </Navbar>
-      // <div style = {{ height:100, width:'100%', position: 'fixed', zIndex: '95',
-      // 	background: this.props.top ? '' : 'rgba(0, 0, 0, 0.75)' ,
-      // 	boxShadow: this.props.top ? '' : '0 1px 2px rgba(0, 0, 0, 0.12)',
-      // }}>
-      // 	<div className="Navbar-container">
-      // 		<div className="Navbar-logo">
-      // 			<NavLogo title link="/main" top={this.props.top} />
-      // 		</div>
-      // 	{/*
-      // 		<NavBaritem login="true" link="/login/" top={this.props.top}>Login</NavBaritem>
-      // 	*/}
-      // 		<div
-      // 			className="Navbar-about"
-      // 			onMouseEnter={this.handleAboutHover}
-      // 			onMouseLeave={this.handleAboutHover}
-      // 		>
-      // 			<NavBaritem link="/about" top={this.props.top}>About</NavBaritem>
-      // 			{
-      // 				this.state.AboutHovering ?
-      // 				<div className="dropdown" onMouseEnter={this.handleAboutHover(true)}>
-      // 					<NavBaritem hover={true} link="/about" top={this.props.top}>Pioneer 2071</NavBaritem>
-      // 					<NavBaritem hover={true} link="/contact" top={this.props.top}>Contact</NavBaritem>
-      // 				</div>
-      // 				:
-      // 				null
-      // 			}
-      // 		</div>
-      // 		<div
-      // 			className="Navbar-conference"
-      // 			onMouseEnter={this.handleConferenceHover}
-      // 			onMouseLeave={this.handleConferenceHover}
-      // 		>
-      // 			<NavBaritem link="/scenario" top={this.props.top}>Conference</NavBaritem>
-      // 			{
-      // 				this.state.ConferenceHovering ?
-      // 				<div className="dropdown" onMouseEnter={this.handleConferenceHover(true)}>
-      // 					<NavBaritem hover={true} link="/scenario" top={this.props.top}>Scenario</NavBaritem>
-      // 					<NavBaritem hover={true} link="/schedule" top={this.props.top}>Schedule</NavBaritem>
-      // 				</div>
-      // 				:
-      // 				null
-      // 			}
-      // 		</div>
-      // 		<div
-      // 			className="Navbar-participate"
-      // 			onMouseEnter={this.handleParticipateHover}
-      // 			onMouseLeave={this.handleParticipateHover}
-      // 		>
-      // 			<NavBaritem link="/guide/participants" top={this.props.top}>Participation</NavBaritem>
-      // 			{
-      // 				this.state.ParticipateHovering ?
-      // 				<div className="dropdown" onMouseEnter={this.handleParticipateHover(true)}>
-      // 					<NavBaritem hover={true} link="/guide/participants" top={this.props.top}>Guide for Participants</NavBaritem>
-      // 					<NavBaritem hover={true} link="/guide/voters" top={this.props.top}>Guide for Voters</NavBaritem>
-      // 				</div>
-      // 				:
-      // 				null
-      // 			}
-      // 		</div>
-      // 		<div className="Navbar-single">
-      // 			<NavBaritem link="/register" top={this.props.top}>Registration</NavBaritem>
-      // 		</div>
-      // 		<div style={{clear: 'both'}}></div>
-      // 	</div>
-      // </div>
     );
   }
 }
